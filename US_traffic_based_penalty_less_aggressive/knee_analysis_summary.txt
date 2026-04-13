@@ -1,0 +1,18 @@
+
+Source: /Users/ansabni/Work/CostPerfServedTo/US_traffic_based_penalty_less_aggressive/knee_analysis.txt
+Metros: 58 total  (29 disk-deploying, 29 zero-disk)
+--------------------------------------------------------------
+  Metric                                    Knee    Cost-Opt
+--------------------------------------------------------------
+  Total cost ($/mo)                     95549.35    70086.70
+  Wtd-avg P50 ms (all metros)              28.12       31.46
+  Wtd-avg P95 ms (all metros)             110.12      119.09
+--------------------------------------------------------------
+    Disk-deploying metros only:     
+    Wtd-avg P50 ms                         25.12       28.78
+    Wtd-avg P95 ms                        107.44      116.43
+    Zero-disk metros only:          
+    Wtd-avg P50 ms                         34.86       37.49
+    Wtd-avg P95 ms                        116.14      125.08
+--------------------------------------------------------------
+  Note: weighted by TRAFFIC_FROM (client Mbps); no-perf-model metros excluded.

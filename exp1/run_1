@@ -1,0 +1,205 @@
+Metro: LAX, Max Possible Hitrate: 97.3%
+Metro: LAS, Max Possible Hitrate: 97.9%
+Metro: PHX, Max Possible Hitrate: 97.9%
+Edge TAT Hit PDF for metro LAX:
+RTT PDF for cache miss from  metro LAX to parent Los_Angeles:
+RTT PDF for edge LAX to metro LAX:
+RTT PDF for edge LAS to metro LAX:
+RTT PDF for edge PHX to metro LAX:
+Edge TAT Hit PDF for metro LAS:
+RTT PDF for cache miss from  metro LAS to parent Los_Angeles:
+RTT PDF for edge LAS to metro LAS:
+RTT PDF for edge LAX to metro LAS:
+Edge TAT Hit PDF for metro PHX:
+RTT PDF for cache miss from  metro PHX to parent Los_Angeles:
+RTT PDF for edge PHX to metro PHX:
+RTT PDF for edge LAX to metro PHX:
+Metro: LAX, P50: 24.9 ms, P95: 100.876 ms
+Disk provisioned for metro LAX: 123 TB, Hitrate: 82%, Cost: 1914.55 USD, Performance Penalty: 928.60 USD
+Metro: LAS, P50: 25.318 ms, P95: 118.65 ms
+Disk provisioned for metro LAS: 68 TB, Hitrate: 90%, Cost: 1137.82 USD, Performance Penalty: 2965.91 USD
+Metro: PHX, P50: 28.656 ms, P95: 113.622 ms
+Disk provisioned for metro PHX: 68 TB, Hitrate: 90%, Cost: 1327.00 USD, Performance Penalty: 5792.43 USD
+Initial Objective Value: 14066.32 USD
+Gradient for metro LAX: -55.948069997690254
+Gradient step: Increasing hitrate for metro: LAX
+Metro: LAX, P50: 24.883 ms, P95: 100.747 ms
+Metro: LAS, P50: 25.309 ms, P95: 118.583 ms
+Metro: PHX, P50: 28.649 ms, P95: 113.526 ms
+Cost after hitrate change: 1937.9063936391144
+Disk provisioned for metro LAX: 131 TB
+Gradient for metro LAS: -78.21188467799033
+Gradient step: Increasing hitrate for metro: LAS
+Metro: LAX, P50: 24.86 ms, P95: 100.714 ms
+Metro: LAS, P50: 25.235 ms, P95: 118.464 ms
+Metro: PHX, P50: 28.649 ms, P95: 113.526 ms
+Cost after hitrate change: 1173.8466311659072
+Disk provisioned for metro LAS: 79 TB
+Gradient for metro PHX: -183.9512452419732
+Gradient step: Increasing hitrate for metro: PHX
+Metro: LAX, P50: 24.85 ms, P95: 100.605 ms
+Metro: LAS, P50: 25.235 ms, P95: 118.464 ms
+Metro: PHX, P50: 28.552 ms, P95: 113.422 ms
+Cost after hitrate change: 1345.9964322981705
+Disk provisioned for metro PHX: 79 TB
+Updated Objective Value: 13858.49 USD
+Gradient for metro LAX: -57.15990815401102
+Gradient step: Increasing hitrate for metro: LAX
+Metro: LAX, P50: 24.827 ms, P95: 100.423 ms
+Metro: LAS, P50: 25.223 ms, P95: 118.371 ms
+Metro: PHX, P50: 28.543 ms, P95: 113.288 ms
+Cost after hitrate change: 1940.4813225851428
+Disk provisioned for metro LAX: 139 TB
+Gradient for metro LAS: -54.14621358926189
+Gradient step: Increasing hitrate for metro: LAS
+Metro: LAX, P50: 24.799 ms, P95: 100.382 ms
+Metro: LAS, P50: 25.132 ms, P95: 118.224 ms
+Metro: PHX, P50: 28.543 ms, P95: 113.288 ms
+Cost after hitrate change: 1198.5209263570698
+Disk provisioned for metro LAS: 91 TB
+Gradient for metro PHX: -160.60872415324826
+Gradient step: Increasing hitrate for metro: PHX
+Metro: LAX, P50: 24.787 ms, P95: 100.245 ms
+Metro: LAS, P50: 25.132 ms, P95: 118.224 ms
+Metro: PHX, P50: 28.423 ms, P95: 113.158 ms
+Cost after hitrate change: 1349.8614108689499
+Disk provisioned for metro PHX: 91 TB
+Updated Objective Value: 13534.74 USD
+Gradient for metro LAX: -52.12519693581282
+Gradient step: Increasing hitrate for metro: LAX
+Metro: LAX, P50: 24.765 ms, P95: 100.075 ms
+Metro: LAS, P50: 25.121 ms, P95: 118.137 ms
+Metro: PHX, P50: 28.415 ms, P95: 113.034 ms
+Cost after hitrate change: 1962.4014348615706
+Disk provisioned for metro LAX: 149 TB
+Gradient for metro LAS: -50.9098827044549
+Gradient step: Increasing hitrate for metro: LAS
+Metro: LAX, P50: 24.742 ms, P95: 100.041 ms
+Metro: LAS, P50: 25.047 ms, P95: 118.016 ms
+Metro: PHX, P50: 28.415 ms, P95: 113.034 ms
+Cost after hitrate change: 1238.0288657569959
+Disk provisioned for metro LAS: 104 TB
+Gradient for metro PHX: -154.18434326843965
+Gradient step: Increasing hitrate for metro: PHX
+Metro: LAX, P50: 24.733 ms, P95: 99.93 ms
+Metro: LAS, P50: 25.047 ms, P95: 118.016 ms
+Metro: PHX, P50: 28.315 ms, P95: 112.927 ms
+Cost after hitrate change: 1372.343545761289
+Disk provisioned for metro PHX: 104 TB
+Updated Objective Value: 13330.35 USD
+Gradient for metro LAX: -32.39796578340662
+Gradient step: Increasing hitrate for metro: LAX
+Metro: LAX, P50: 24.711 ms, P95: 99.762 ms
+Metro: LAS, P50: 25.036 ms, P95: 117.929 ms
+Metro: PHX, P50: 28.307 ms, P95: 112.803 ms
+Cost after hitrate change: 1986.164391018334
+Disk provisioned for metro LAX: 159 TB
+Gradient for metro LAS: -38.05107602199621
+Gradient step: Increasing hitrate for metro: LAS
+Metro: LAX, P50: 24.686 ms, P95: 99.724 ms
+Metro: LAS, P50: 24.959 ms, P95: 117.794 ms
+Metro: PHX, P50: 28.307 ms, P95: 112.803 ms
+Cost after hitrate change: 1280.361615615559
+Disk provisioned for metro LAS: 117 TB
+Gradient for metro PHX: -137.97918658598184
+Gradient step: Increasing hitrate for metro: PHX
+Metro: LAX, P50: 24.675 ms, P95: 99.6 ms
+Metro: LAS, P50: 24.959 ms, P95: 117.794 ms
+Metro: PHX, P50: 28.196 ms, P95: 112.684 ms
+Cost after hitrate change: 1395.7587350558674
+Disk provisioned for metro PHX: 117 TB
+Updated Objective Value: 13140.26 USD
+Gradient for metro LAX: -10.091166055836311
+Gradient step: Increasing hitrate for metro: LAX
+Metro: LAX, P50: 24.653 ms, P95: 99.427 ms
+Metro: LAS, P50: 24.949 ms, P95: 117.706 ms
+Metro: PHX, P50: 28.187 ms, P95: 112.558 ms
+Cost after hitrate change: 2040.2268027498963
+Disk provisioned for metro LAX: 173 TB
+Gradient for metro LAS: -11.19707095347161
+Gradient step: Increasing hitrate for metro: LAS
+Metro: LAX, P50: 24.63 ms, P95: 99.392 ms
+Metro: LAS, P50: 24.884 ms, P95: 117.584 ms
+Metro: PHX, P50: 28.187 ms, P95: 112.558 ms
+Cost after hitrate change: 1364.5579651525347
+Disk provisioned for metro LAS: 135 TB
+Gradient for metro PHX: -115.39518151745591
+Gradient step: Increasing hitrate for metro: PHX
+Metro: LAX, P50: 24.62 ms, P95: 99.279 ms
+Metro: LAS, P50: 24.884 ms, P95: 117.584 ms
+Metro: PHX, P50: 28.086 ms, P95: 112.449 ms
+Cost after hitrate change: 1462.9292800852568
+Disk provisioned for metro PHX: 135 TB
+Updated Objective Value: 13093.14 USD
+Gradient for metro LAX: 4.707292650254885
+Gradient step: Decreasing hitrate for metro: LAX
+Metro: LAX, P50: 24.642 ms, P95: 99.453 ms
+Metro: LAS, P50: 24.893 ms, P95: 117.673 ms
+Metro: PHX, P50: 28.094 ms, P95: 112.576 ms
+Cost after hitrate change: 1986.164391018334
+Disk provisioned for metro LAX: 159 TB
+Gradient for metro LAS: -8.39556044499858
+Gradient step: Increasing hitrate for metro: LAS
+Metro: LAX, P50: 24.616 ms, P95: 99.415 ms
+Metro: LAS, P50: 24.82 ms, P95: 117.538 ms
+Metro: PHX, P50: 28.094 ms, P95: 112.576 ms
+Cost after hitrate change: 1408.6604360280453
+Disk provisioned for metro LAS: 149 TB
+Gradient for metro PHX: -113.36652100898186
+Gradient step: Increasing hitrate for metro: PHX
+Metro: LAX, P50: 24.605 ms, P95: 99.289 ms
+Metro: LAS, P50: 24.82 ms, P95: 117.538 ms
+Metro: PHX, P50: 27.981 ms, P95: 112.455 ms
+Cost after hitrate change: 1488.1141903967823
+Disk provisioned for metro PHX: 149 TB
+Updated Objective Value: 12933.32 USD
+Gradient for metro LAX: -9.254116055836391
+Gradient step: Increasing hitrate for metro: LAX
+Metro: LAX, P50: 24.584 ms, P95: 99.113 ms
+Metro: LAS, P50: 24.811 ms, P95: 117.448 ms
+Metro: PHX, P50: 27.972 ms, P95: 112.327 ms
+Cost after hitrate change: 2040.2268027498963
+Disk provisioned for metro LAX: 173 TB
+Gradient for metro LAS: 43.60393046636028
+Gradient step: Decreasing hitrate for metro: LAS
+Metro: LAX, P50: 24.612 ms, P95: 99.156 ms
+Metro: LAS, P50: 24.891 ms, P95: 117.597 ms
+Metro: PHX, P50: 27.972 ms, P95: 112.327 ms
+Cost after hitrate change: 1352.7493831041093
+Disk provisioned for metro LAS: 133 TB
+Gradient for metro PHX: -60.947680097626005
+Gradient step: Increasing hitrate for metro: PHX
+Metro: LAX, P50: 24.602 ms, P95: 99.041 ms
+Metro: LAS, P50: 24.891 ms, P95: 117.597 ms
+Metro: PHX, P50: 27.87 ms, P95: 112.216 ms
+Cost after hitrate change: 1638.7651938979775
+Disk provisioned for metro PHX: 177 TB
+Updated Objective Value: 12971.56 USD
+Gradient for metro LAX: 4.577642650255257
+Gradient step: Decreasing hitrate for metro: LAX
+Metro: LAX, P50: 24.624 ms, P95: 99.218 ms
+Metro: LAS, P50: 24.901 ms, P95: 117.687 ms
+Metro: PHX, P50: 27.878 ms, P95: 112.345 ms
+Cost after hitrate change: 1986.164391018334
+Disk provisioned for metro LAX: 159 TB
+Gradient for metro LAS: -8.12141044499765
+Gradient step: Increasing hitrate for metro: LAS
+Metro: LAX, P50: 24.598 ms, P95: 99.18 ms
+Metro: LAS, P50: 24.828 ms, P95: 117.551 ms
+Metro: PHX, P50: 27.878 ms, P95: 112.345 ms
+Cost after hitrate change: 1414.797977330526
+Disk provisioned for metro LAS: 149 TB
+Gradient for metro PHX: 140.55352280065404
+Gradient step: Decreasing hitrate for metro: PHX
+Metro: LAX, P50: 24.609 ms, P95: 99.306 ms
+Metro: LAS, P50: 24.828 ms, P95: 117.551 ms
+Metro: PHX, P50: 27.992 ms, P95: 112.467 ms
+Cost after hitrate change: 1496.1434877556615
+Disk provisioned for metro PHX: 149 TB
+Updated Objective Value: 12969.76 USD
+Metro: LAX, Final P50: 24.609 ms, Final P95: 99.306 ms
+Final Metro: LAX, Provisioned Disk: 159 TB, Hitrate: 85.9%, Cost: 1986.16 USD, Performance Penalty: 680.69 USD
+Metro: LAS, Final P50: 24.828 ms, Final P95: 117.551 ms
+Final Metro: LAS, Provisioned Disk: 149 TB, Hitrate: 95.7%, Cost: 1414.80 USD, Performance Penalty: 2554.86 USD
+Metro: PHX, Final P50: 27.992 ms, Final P95: 112.467 ms
+Final Metro: PHX, Provisioned Disk: 149 TB, Hitrate: 95.7%, Cost: 1496.14 USD, Performance Penalty: 4837.11 USD

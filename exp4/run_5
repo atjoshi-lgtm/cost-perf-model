@@ -1,0 +1,2817 @@
+Metro: AUS, Max Possible Hitrate: 96.1, STEP: 3459176.5 TB
+Metro: DFW, Max Possible Hitrate: 97.3, STEP: 4720870.5 TB
+Metro: IAH, Max Possible Hitrate: 97.9, STEP: 2011275.0 TB
+Metro: SAT, Max Possible Hitrate: 97.9, STEP: 2011275.0 TB
+Metro: OKC, Max Possible Hitrate: 97.9, STEP: 2011275.0 TB
+No data found for metro Austin edge TATs
+Edge TAT Hit PDF for metro AUS:
+No data found for midgress RTT between Dallas and Austin
+RTT PDF for cache miss from  metro AUS to parent Dallas:
+No data found for metro Austin and client metro 1138
+RTT PDF for edge AUS to metro AUS:
+No data found for metro Austin and client metro 1147
+RTT PDF for edge DFW to metro AUS:
+Edge TAT Hit PDF for metro DFW:
+RTT PDF for cache miss from  metro DFW to parent Dallas:
+RTT PDF for edge DFW to metro DFW:
+RTT PDF for edge IAH to metro DFW:
+RTT PDF for edge OKC to metro DFW:
+RTT PDF for edge SAT to metro DFW:
+RTT PDF for edge AUS to metro DFW:
+Edge TAT Hit PDF for metro IAH:
+RTT PDF for cache miss from  metro IAH to parent Dallas:
+RTT PDF for edge IAH to metro IAH:
+RTT PDF for edge DFW to metro IAH:
+Edge TAT Hit PDF for metro SAT:
+RTT PDF for cache miss from  metro SAT to parent Dallas:
+RTT PDF for edge SAT to metro SAT:
+RTT PDF for edge DFW to metro SAT:
+No data found for metro Oklahoma_City edge TATs
+Edge TAT Hit PDF for metro OKC:
+RTT PDF for cache miss from  metro OKC to parent Dallas:
+RTT PDF for edge OKC to metro OKC:
+RTT PDF for edge DFW to metro OKC:
+Traffic fraction for DFW: 0.7997000351443972
+Traffic fraction for IAH: 0.19433201720590493
+Traffic fraction for SAT: 0.004926815505114087
+Traffic fraction for OKC: 0.0010411321445837204
+Traffic fraction for AUS: 0.0
+Incoming traffic for each metro (in Mbps):
+DFW: 484675.0 Mbps
+IAH: 117779.0 Mbps
+SAT: 2986.0 Mbps
+OKC: 631.0 Mbps
+AUS: 0.0 Mbps
+Metro: DFW, P50: 20.82 ms, P95: 101.33 ms
+Disk provisioned for metro DFW: 159 TB, Hitrate: 86%, Cost: 1389.99 USD, Performance Penalty: 0.00 USD
+Metro: IAH, P50: 24.41 ms, P95: 96.98 ms
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89%, Cost: 398.18 USD, Performance Penalty: 21.52 USD
+Metro: SAT, P50: 34.88 ms, P95: 113.08 ms
+Disk provisioned for metro SAT: 9 TB, Hitrate: 50%, Cost: 149.75 USD, Performance Penalty: 775.06 USD
+Metro: OKC, P50: 29.07 ms, P95: 109.22 ms
+Disk provisioned for metro OKC: 9 TB, Hitrate: 50%, Cost: 62.80 USD, Performance Penalty: 344.47 USD
+Metro: AUS, P50: 29.03 ms, P95: 99.54 ms
+Disk provisioned for metro AUS: 18 TB, Hitrate: 50%, Cost: 76.38 USD, Performance Penalty: 86.36 USD
+Initial Objective Value: 3304.50 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 10180.105713315763, Cost differential: 3.75103027026762
+Current hitrate: 86%, New hitrate: 86.3%, Current disk: 166718900.0 TB, New disk: 171439770.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 10267.440713315766, Cost differential: 16.700933509043352
+Previous hitrate: 85.3%, Previous disk: 161998029.5 TB
+Gradient for metro DFW: -50.14245161938925
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 29.02 ms, P95: 99.46 ms
+Metro: DFW, P50: 20.81 ms, P95: 101.26 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.97 ms
+Metro: SAT, P50: 34.87 ms, P95: 113.02 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.16 ms
+Cost after disk change: 1393.7387147808672
+Disk provisioned for metro DFW: 163 TB, Hitrate: 86.3%, Cost: 1393.74 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 30.19999999999989, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -26.38299261805966
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 29.02 ms, P95: 99.46 ms
+Metro: DFW, P50: 20.81 ms, P95: 101.26 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.89 ms
+Metro: SAT, P50: 34.87 ms, P95: 113.02 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.16 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -28.219999999994798, Cost differential: 0.41552111095452915
+Current hitrate: 50%, New hitrate: 53.5%, Current disk: 9767400.0 TB, New disk: 11778675.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 28.260000000003856, Cost differential: 0.4664863103384107
+Previous hitrate: 46.1%, Previous disk: 7756125.0 TB
+Gradient for metro SAT: -28.265482599691268
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 29.02 ms, P95: 99.46 ms
+Metro: DFW, P50: 20.81 ms, P95: 101.26 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.89 ms
+Metro: SAT, P50: 34.85 ms, P95: 112.93 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.16 ms
+Cost after disk change: 150.1633373920245
+Disk provisioned for metro SAT: 11 TB, Hitrate: 53.5%, Cost: 150.16 USD, Performance Penalty: 7417.63 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.065000000000737, Cost differential: 6.502214153492375
+Current hitrate: 50%, New hitrate: 53.5%, Current disk: 9767400.0 TB, New disk: 11778675.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 0.5000000000004547, Cost differential: -6.31582879420376
+Previous hitrate: 46.1%, Previous disk: 7756125.0 TB
+Gradient for metro OKC: 2.626521473847472
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 29.02 ms, P95: 99.46 ms
+Metro: DFW, P50: 20.81 ms, P95: 101.26 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.89 ms
+Metro: SAT, P50: 34.85 ms, P95: 112.93 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.17 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2050.75 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.98803253020452
+Current hitrate: 50%, New hitrate: 52.6%, Current disk: 18889200.0 TB, New disk: 22348376.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: -13.988032530204485
+Previous hitrate: 47.5%, Previous disk: 15430023.5 TB
+Gradient for metro AUS: 13.988032530204503
+Gradient step: Decreasing disk for metro: AUS
+Metro: AUS, P50: 29.02 ms, P95: 99.46 ms
+Metro: DFW, P50: 20.81 ms, P95: 101.26 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.89 ms
+Metro: SAT, P50: 34.85 ms, P95: 112.93 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.17 ms
+Cost after disk change: 62.39510203073474
+Disk provisioned for metro AUS: 15 TB, Hitrate: 47.5%, Cost: 62.40 USD, Performance Penalty: 1812.02 USD
+Updated Objective Value: 13442.35 USD, Total cost: 2065.36 USD, Total performance penalty: 11377.00 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: -23.909999999998718, Cost differential: 3.7510302702678473
+Current hitrate: 86.3%, New hitrate: 86.6%, Current disk: 171439770.5 TB, New disk: 176160641.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 32.4549999999972, Cost differential: 1.3619606745592137
+Previous hitrate: 85.9%, Previous disk: 166718900.0 TB
+Gradient for metro DFW: -26.98796520214364
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.88 ms
+Metro: SAT, P50: 34.84 ms, P95: 112.87 ms
+Metro: OKC, P50: 29.06 ms, P95: 109.11 ms
+Cost after disk change: 1397.489745051135
+Disk provisioned for metro DFW: 168 TB, Hitrate: 86.6%, Cost: 1397.49 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.759999999999934, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 1.6256214958209299
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.96 ms
+Metro: SAT, P50: 34.84 ms, P95: 112.87 ms
+Metro: OKC, P50: 29.06 ms, P95: 109.11 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -14.335000000006403, Cost differential: 3.0615433748334056
+Current hitrate: 53.5%, New hitrate: 55.8%, Current disk: 11778675.0 TB, New disk: 13789950.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 28.19999999999527, Cost differential: 0.24598445501518995
+Previous hitrate: 49.7%, Previous disk: 9767400.0 TB
+Gradient for metro SAT: -19.85972054009173
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.96 ms
+Metro: SAT, P50: 34.83 ms, P95: 112.82 ms
+Metro: OKC, P50: 29.06 ms, P95: 109.11 ms
+Cost after disk change: 153.2248807668579
+Disk provisioned for metro SAT: 13 TB, Hitrate: 55.8%, Cost: 153.22 USD, Performance Penalty: 7388.44 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.9999999999997726, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 6.565000000001191, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.370241604825715
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.96 ms
+Metro: SAT, P50: 34.83 ms, P95: 112.82 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.12 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2048.25 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.988032530204485
+Current hitrate: 47.5%, New hitrate: 50.3%, Current disk: 15430023.5 TB, New disk: 18889200.0 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: -13.9880325302045
+Previous hitrate: 43.4%, Previous disk: 11970847.0 TB
+Gradient for metro AUS: 13.988032530204492
+Gradient step: Decreasing disk for metro: AUS
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.96 ms
+Metro: SAT, P50: 34.83 ms, P95: 112.82 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.12 ms
+Cost after disk change: 48.40706950053024
+Disk provisioned for metro AUS: 11 TB, Hitrate: 43.4%, Cost: 48.41 USD, Performance Penalty: 1812.02 USD
+Updated Objective Value: 13396.04 USD, Total cost: 2047.93 USD, Total performance penalty: 11348.11 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 86.6%, New hitrate: 86.6%, Current disk: 176160641.0 TB, New disk: 180881511.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.410000000004857, Cost differential: -3.7510302702678473
+Previous hitrate: 86.3%, Previous disk: 171439770.5 TB
+Gradient for metro DFW: -0.7844833124928527
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.96 ms
+Metro: SAT, P50: 34.83 ms, P95: 112.82 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.12 ms
+Cost after disk change: 1416.5797481558864
+Disk provisioned for metro DFW: 173 TB, Hitrate: 86.6%, Cost: 1416.58 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 30.19999999999989, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -26.38299261805966
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.88 ms
+Metro: SAT, P50: 34.83 ms, P95: 112.82 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.12 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -28.13999999999487, Cost differential: 0.19501925563127998
+Current hitrate: 55.8%, New hitrate: 59.4%, Current disk: 13789950.0 TB, New disk: 15801225.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 14.335000000006403, Cost differential: -3.0615433748334056
+Previous hitrate: 53.5%, Previous disk: 11778675.0 TB
+Gradient for metro SAT: -19.609218684768294
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.88 ms
+Metro: SAT, P50: 34.81 ms, P95: 112.73 ms
+Metro: OKC, P50: 29.07 ms, P95: 109.12 ms
+Cost after disk change: 153.41990002248917
+Disk provisioned for metro SAT: 15 TB, Hitrate: 59.4%, Cost: 153.42 USD, Performance Penalty: 7360.31 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -6.565000000001191, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.574999999998909, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.7326943420616274
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.88 ms
+Metro: SAT, P50: 34.81 ms, P95: 112.73 ms
+Metro: OKC, P50: 29.06 ms, P95: 109.11 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2041.68 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 43.4%, New hitrate: 47.5%, Current disk: 11970847.0 TB, New disk: 15430023.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: -13.9880325302045
+Previous hitrate: 38.9%, Previous disk: 8511670.5 TB
+Gradient for metro AUS: 13.9880325302045
+Gradient step: Decreasing disk for metro: AUS
+Metro: AUS, P50: 29.02 ms, P95: 99.37 ms
+Metro: DFW, P50: 20.8 ms, P95: 101.19 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.88 ms
+Metro: SAT, P50: 34.81 ms, P95: 112.73 ms
+Metro: OKC, P50: 29.06 ms, P95: 109.11 ms
+Cost after disk change: 34.41903697032574
+Disk provisioned for metro AUS: 8 TB, Hitrate: 38.9%, Cost: 34.42 USD, Performance Penalty: 1812.02 USD
+Updated Objective Value: 13374.09 USD, Total cost: 2063.48 USD, Total performance penalty: 11310.61 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: -54.175000000001546, Cost differential: -11.58794256421561
+Current hitrate: 86.6%, New hitrate: 87.2%, Current disk: 180881511.5 TB, New disk: 185602382.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 86.6%, Previous disk: 176160641.0 TB
+Gradient for metro DFW: -23.336469729732926
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.85 ms
+Metro: SAT, P50: 34.79 ms, P95: 112.61 ms
+Metro: OKC, P50: 29.05 ms, P95: 108.98 ms
+Cost after disk change: 1404.9918055916708
+Disk provisioned for metro DFW: 177 TB, Hitrate: 87.2%, Cost: 1404.99 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.759999999999934, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 1.6256214958209299
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.94 ms
+Metro: SAT, P50: 34.79 ms, P95: 112.61 ms
+Metro: OKC, P50: 29.05 ms, P95: 108.98 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -14.284999999998945, Cost differential: 3.723048940803153
+Current hitrate: 59.4%, New hitrate: 61.4%, Current disk: 15801225.0 TB, New disk: 17812500.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 27.600000000003092, Cost differential: -0.19501925563127998
+Previous hitrate: 55.8%, Previous disk: 13789950.0 TB
+Gradient for metro SAT: -18.983465901783802
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.94 ms
+Metro: SAT, P50: 34.78 ms, P95: 112.56 ms
+Metro: OKC, P50: 29.05 ms, P95: 108.98 ms
+Cost after disk change: 157.14294896329233
+Disk provisioned for metro SAT: 17 TB, Hitrate: 61.4%, Cost: 157.14 USD, Performance Penalty: 7316.42 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -6.545000000000755, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.054999999998699, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: -0.6472583951735302
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.94 ms
+Metro: SAT, P50: 34.78 ms, P95: 112.56 ms
+Metro: OKC, P50: 29.04 ms, P95: 108.97 ms
+Cost after disk change: 62.9348475499957
+Disk provisioned for metro OKC: 9 TB, Hitrate: 49.7%, Cost: 62.93 USD, Performance Penalty: 2022.58 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 38.9%, New hitrate: 43.4%, Current disk: 8511670.5 TB, New disk: 11970847.0 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: -13.988032530204503
+Previous hitrate: 32.7%, Previous disk: 5052494.0 TB
+Gradient for metro AUS: 13.988032530204501
+Gradient step: Decreasing disk for metro: AUS
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.94 ms
+Metro: SAT, P50: 34.78 ms, P95: 112.56 ms
+Metro: OKC, P50: 29.04 ms, P95: 108.97 ms
+Cost after disk change: 20.43100444012124
+Disk provisioned for metro AUS: 5 TB, Hitrate: 32.7%, Cost: 20.43 USD, Performance Penalty: 1800.00 USD
+Updated Objective Value: 13282.08 USD, Total cost: 2043.68 USD, Total performance penalty: 11238.41 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 87.2%, New hitrate: 87.2%, Current disk: 185602382.0 TB, New disk: 190323252.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 59.699999999994816, Cost differential: 11.58794256421561
+Previous hitrate: 86.6%, Previous disk: 180881511.5 TB
+Gradient for metro DFW: -26.09896972972956
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.94 ms
+Metro: SAT, P50: 34.78 ms, P95: 112.56 ms
+Metro: OKC, P50: 29.04 ms, P95: 108.97 ms
+Cost after disk change: 1424.081808696422
+Disk provisioned for metro DFW: 182 TB, Hitrate: 87.2%, Cost: 1424.08 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.85 ms
+Metro: SAT, P50: 34.78 ms, P95: 112.56 ms
+Metro: OKC, P50: 29.04 ms, P95: 108.97 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -14.774999999997817, Cost differential: 2.8410415195101564
+Current hitrate: 61.4%, New hitrate: 63.8%, Current disk: 17812500.0 TB, New disk: 19823775.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 14.284999999998945, Cost differential: -3.723048940803153
+Previous hitrate: 59.4%, Previous disk: 15801225.0 TB
+Gradient for metro SAT: -11.247954769841726
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.85 ms
+Metro: SAT, P50: 34.77 ms, P95: 112.5 ms
+Metro: OKC, P50: 29.04 ms, P95: 108.97 ms
+Cost after disk change: 159.98399048280248
+Disk provisioned for metro SAT: 19 TB, Hitrate: 63.8%, Cost: 159.98 USD, Performance Penalty: 7301.65 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.9999999999997726, Cost differential: 6.362425134025905
+Current hitrate: 49.7%, New hitrate: 53.5%, Current disk: 9767400.0 TB, New disk: 11778675.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 6.545000000000755, Cost differential: -6.45561781367023
+Previous hitrate: 46.1%, Previous disk: 7756125.0 TB
+Gradient for metro OKC: 2.6365214738478038
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.85 ms
+Metro: SAT, P50: 34.77 ms, P95: 112.5 ms
+Metro: OKC, P50: 29.05 ms, P95: 108.98 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2029.13 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.988032530204503
+Current hitrate: 32.7%, New hitrate: 38.9%, Current disk: 5052494.0 TB, New disk: 8511670.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: -13.988032530204498
+Previous hitrate: 19.9%, Previous disk: 1593317.5 TB
+Gradient for metro AUS: 13.9880325302045
+Gradient step: Decreasing disk for metro: AUS
+Metro: AUS, P50: 29.0 ms, P95: 99.2 ms
+Metro: DFW, P50: 20.79 ms, P95: 101.05 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.85 ms
+Metro: SAT, P50: 34.77 ms, P95: 112.5 ms
+Metro: OKC, P50: 29.05 ms, P95: 108.98 ms
+Cost after disk change: 6.442971909916741
+Disk provisioned for metro AUS: 2 TB, Hitrate: 19.9%, Cost: 6.44 USD, Performance Penalty: 1800.00 USD
+Updated Objective Value: 13276.95 USD, Total cost: 2049.57 USD, Total performance penalty: 11227.38 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: -62.580000000002656, Cost differential: -16.70093350904358
+Current hitrate: 87.2%, New hitrate: 87.9%, Current disk: 190323252.5 TB, New disk: 195044123.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 87.2%, Previous disk: 185602382.0 TB
+Gradient for metro DFW: -30.095465202147466
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.83 ms
+Metro: SAT, P50: 34.75 ms, P95: 112.35 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 1407.3808751873785
+Disk provisioned for metro DFW: 186 TB, Hitrate: 87.9%, Cost: 1407.38 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.759999999999934, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 1.6256214958209299
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.75 ms, P95: 112.35 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -13.244999999998072, Cost differential: 5.046060072742563
+Current hitrate: 63.8%, New hitrate: 65.2%, Current disk: 19823775.0 TB, New disk: 21835050.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 14.75499999999829, Cost differential: -2.8410415195101564
+Previous hitrate: 61.4%, Previous disk: 17812500.0 TB
+Gradient for metro SAT: -10.056449203871821
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.74 ms, P95: 112.32 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 165.03005055554505
+Disk provisioned for metro SAT: 21 TB, Hitrate: 65.2%, Cost: 165.03 USD, Performance Penalty: 7257.38 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -6.525000000001228, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998718, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: -0.6272583951737758
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.74 ms, P95: 112.32 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.82 ms
+Cost after disk change: 62.9348475499957
+Disk provisioned for metro OKC: 9 TB, Hitrate: 49.7%, Cost: 62.93 USD, Performance Penalty: 2003.02 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.988032530204498
+Current hitrate: 19.9%, New hitrate: 32.7%, Current disk: 1593317.5 TB, New disk: 5052494.0 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: -6.442971909916741
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 10.21550222006062
+Gradient step: Decreasing disk for metro: AUS
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.74 ms, P95: 112.32 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.82 ms
+Cost after disk change: 0.0
+Disk provisioned for metro AUS: 0 TB, Hitrate: 9.5%, Cost: 0.00 USD, Performance Penalty: 1788.02 USD
+Updated Objective Value: 13181.35 USD, Total cost: 2033.52 USD, Total performance penalty: 11147.83 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: -17.735000000004675, Cost differential: 3.7510302702680747
+Current hitrate: 87.9%, New hitrate: 88.2%, Current disk: 195044123.0 TB, New disk: 199764993.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 62.539999999996326, Cost differential: 16.70093350904358
+Previous hitrate: 87.2%, Previous disk: 190323252.5 TB
+Gradient for metro DFW: -46.61245161938825
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.73 ms, P95: 112.26 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.73 ms, P95: 112.26 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -14.224999999998545, Cost differential: 4.164052651449623
+Current hitrate: 65.2%, New hitrate: 67.0%, Current disk: 21835050.0 TB, New disk: 23846325.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.23500000000513, Cost differential: -5.046060072742563
+Previous hitrate: 63.8%, Previous disk: 19823775.0 TB
+Gradient for metro SAT: -9.124943637905744
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.72 ms, P95: 112.21 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 169.19410320699467
+Disk provisioned for metro SAT: 23 TB, Hitrate: 67.0%, Cost: 169.19 USD, Performance Penalty: 7228.42 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.0149999999991905, Cost differential: 6.362425134025905
+Current hitrate: 49.7%, New hitrate: 53.5%, Current disk: 9767400.0 TB, New disk: 11778675.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 0.49999999999954525, Cost differential: -6.45561781367023
+Previous hitrate: 46.1%, Previous disk: 7756125.0 TB
+Gradient for metro OKC: 2.6515214738486996
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.72 ms, P95: 112.21 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13152.95 USD, Total cost: 2039.39 USD, Total performance penalty: 11113.56 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.249999999999773, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.704483312490197
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.72 ms, P95: 112.21 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.72 ms, P95: 112.21 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -14.214999999996508, Cost differential: 3.0615433748334056
+Current hitrate: 67.0%, New hitrate: 69.3%, Current disk: 23846325.0 TB, New disk: 25857600.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 14.224999999998545, Cost differential: -4.164052651449623
+Previous hitrate: 65.2%, Previous disk: 21835050.0 TB
+Gradient for metro SAT: -10.607201986856012
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.71 ms, P95: 112.16 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 172.25564658182807
+Disk provisioned for metro SAT: 25 TB, Hitrate: 69.3%, Cost: 172.26 USD, Performance Penalty: 7214.21 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.71 ms, P95: 112.16 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13160.46 USD, Total cost: 2051.28 USD, Total performance penalty: 11109.18 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.71 ms, P95: 112.16 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.71 ms, P95: 112.16 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -13.204999999998108, Cost differential: 5.487063783389033
+Current hitrate: 69.3%, New hitrate: 70.5%, Current disk: 25857600.0 TB, New disk: 27868875.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 14.214999999996508, Cost differential: -3.0615433748334056
+Previous hitrate: 67.0%, Previous disk: 23846325.0 TB
+Gradient for metro SAT: -9.435696420886089
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.7 ms, P95: 112.13 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 177.7427103652171
+Disk provisioned for metro SAT: 27 TB, Hitrate: 70.5%, Cost: 177.74 USD, Performance Penalty: 7201.00 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.7 ms, P95: 112.13 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13134.08 USD, Total cost: 2047.94 USD, Total performance penalty: 11086.15 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.229999999999336, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6944833124899787
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.7 ms, P95: 112.13 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.7 ms, P95: 112.13 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -13.195000000006075, Cost differential: 4.825558217419285
+Current hitrate: 70.5%, New hitrate: 72.0%, Current disk: 27868875.0 TB, New disk: 29880150.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.204999999998108, Cost differential: -5.487063783389033
+Previous hitrate: 69.3%, Previous disk: 25857600.0 TB
+Gradient for metro SAT: -8.043688999597933
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.1 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 182.5682685826364
+Disk provisioned for metro SAT: 28 TB, Hitrate: 72.0%, Cost: 182.57 USD, Performance Penalty: 7187.80 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.1 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13144.37 USD, Total cost: 2061.60 USD, Total performance penalty: 11082.77 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.1 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.1 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.5, Cost differential: 5.487063783389033
+Current hitrate: 72.0%, New hitrate: 73.2%, Current disk: 29880150.0 TB, New disk: 31891425.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.195000000006075, Cost differential: -4.825558217419285
+Previous hitrate: 70.5%, Previous disk: 27868875.0 TB
+Gradient for metro SAT: -2.1911889995988787
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.07 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 188.05533236602543
+Disk provisioned for metro SAT: 30 TB, Hitrate: 73.2%, Cost: 188.06 USD, Performance Penalty: 7186.30 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.07 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13129.70 USD, Total cost: 2058.25 USD, Total performance penalty: 11071.45 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 12.025000000001228, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: 5.408016687509075
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.89 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.83 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.13 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 1407.3808751873785
+Disk provisioned for metro DFW: 186 TB, Hitrate: 87.9%, Cost: 1407.38 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.759999999999934, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 1.6256214958209299
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.13 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.5, Cost differential: 5.266561928065812
+Current hitrate: 73.2%, New hitrate: 74.5%, Current disk: 31891425.0 TB, New disk: 33902700.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.195000000006075, Cost differential: -5.487063783389033
+Previous hitrate: 72.0%, Previous disk: 29880150.0 TB
+Gradient for metro SAT: -1.9706871442756153
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.1 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 193.32189429409124
+Disk provisioned for metro SAT: 32 TB, Hitrate: 74.5%, Cost: 193.32 USD, Performance Penalty: 7187.80 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -6.525000000001228, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998718, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: -0.6272583951737758
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.9 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.69 ms, P95: 112.1 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.82 ms
+Cost after disk change: 62.9348475499957
+Disk provisioned for metro OKC: 9 TB, Hitrate: 49.7%, Cost: 62.93 USD, Performance Penalty: 2003.02 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13140.07 USD, Total cost: 2061.82 USD, Total performance penalty: 11078.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: -17.684999999998126, Cost differential: 3.7510302702680747
+Current hitrate: 87.9%, New hitrate: 88.2%, Current disk: 195044123.0 TB, New disk: 199764993.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 62.44000000000415, Cost differential: 16.70093350904358
+Previous hitrate: 87.2%, Previous disk: 190323252.5 TB
+Gradient for metro DFW: -46.53745161938889
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.04 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.04 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 6.810074915328499
+Current hitrate: 74.5%, New hitrate: 75.1%, Current disk: 33902700.0 TB, New disk: 35913975.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.184999999998581, Cost differential: -5.266561928065812
+Previous hitrate: 73.2%, Previous disk: 31891425.0 TB
+Gradient for metro SAT: -1.0541815783021349
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.02 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 200.13196920941974
+Disk provisioned for metro SAT: 34 TB, Hitrate: 75.1%, Cost: 200.13 USD, Performance Penalty: 7172.12 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.0149999999991905, Cost differential: 6.362425134025905
+Current hitrate: 49.7%, New hitrate: 53.5%, Current disk: 9767400.0 TB, New disk: 11778675.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 0.49999999999954525, Cost differential: -6.45561781367023
+Previous hitrate: 46.1%, Previous disk: 7756125.0 TB
+Gradient for metro OKC: 2.6515214738486996
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.02 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13127.59 USD, Total cost: 2070.33 USD, Total performance penalty: 11057.26 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 12.525000000001228, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: 5.158016687509075
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.89 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.83 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.09 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 1407.3808751873785
+Disk provisioned for metro DFW: 186 TB, Hitrate: 87.9%, Cost: 1407.38 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.759999999999934, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 1.6256214958209299
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.89 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.09 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.5, Cost differential: 5.707565638712225
+Current hitrate: 75.1%, New hitrate: 76.2%, Current disk: 35913975.0 TB, New disk: 37925250.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 12.184999999998581, Cost differential: -6.810074915328499
+Previous hitrate: 74.5%, Previous disk: 33902700.0 TB
+Gradient for metro SAT: -0.5836797229789283
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.89 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.06 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.83 ms
+Cost after disk change: 205.83953484813196
+Disk provisioned for metro SAT: 36 TB, Hitrate: 76.2%, Cost: 205.84 USD, Performance Penalty: 7174.12 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -6.525000000001228, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998718, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: -0.6272583951737758
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 99.0 ms
+Metro: DFW, P50: 20.76 ms, P95: 100.89 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.91 ms
+Metro: SAT, P50: 34.68 ms, P95: 112.06 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.82 ms
+Cost after disk change: 62.9348475499957
+Disk provisioned for metro OKC: 9 TB, Hitrate: 49.7%, Cost: 62.93 USD, Performance Penalty: 2003.02 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13138.90 USD, Total cost: 2074.33 USD, Total performance penalty: 11064.56 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: -17.67499999999609, Cost differential: 3.7510302702680747
+Current hitrate: 87.9%, New hitrate: 88.2%, Current disk: 195044123.0 TB, New disk: 199764993.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 62.92000000000462, Cost differential: 16.70093350904358
+Previous hitrate: 87.2%, Previous disk: 190323252.5 TB
+Gradient for metro DFW: -46.77245161938811
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.67 ms, P95: 112.0 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.67 ms, P95: 112.0 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -13.16500000000633, Cost differential: 5.707565638712282
+Current hitrate: 76.2%, New hitrate: 77.3%, Current disk: 37925250.0 TB, New disk: 39936525.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 12.674999999996544, Cost differential: -5.707565638712225
+Previous hitrate: 75.1%, Previous disk: 35913975.0 TB
+Gradient for metro SAT: -7.2124343612891835
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.76 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.0149999999991905, Cost differential: 6.362425134025905
+Current hitrate: 49.7%, New hitrate: 53.5%, Current disk: 9767400.0 TB, New disk: 11778675.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 0.49999999999954525, Cost differential: -6.45561781367023
+Previous hitrate: 46.1%, Previous disk: 7756125.0 TB
+Gradient for metro OKC: 2.6515214738486996
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 1411.1319054576466
+Disk provisioned for metro DFW: 191 TB, Hitrate: 88.2%, Cost: 1411.13 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -2.7999999999999403, Cost differential: 4.405621495820753
+Current hitrate: 89.0%, New hitrate: 89.3%, Current disk: 64668800.0 TB, New disk: 66680075.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 28.595000000000212, Cost differential: 24.171606731940244
+Previous hitrate: 86.4%, Previous disk: 62657525.0 TB
+Gradient for metro IAH: -25.58049261805982
+Gradient step: Increasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 402.5835491203333
+Disk provisioned for metro IAH: 64 TB, Hitrate: 89.3%, Cost: 402.58 USD, Performance Penalty: 96.61 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -0.5, Cost differential: 7.03057677065172
+Current hitrate: 78.3%, New hitrate: 78.8%, Current disk: 41947800.0 TB, New disk: 43959075.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 1.0, Cost differential: -5.928067494035531
+Previous hitrate: 77.3%, Previous disk: 39936525.0 TB
+Gradient for metro SAT: 5.729322132343626
+Gradient step: Decreasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 211.54710048684424
+Disk provisioned for metro SAT: 38 TB, Hitrate: 77.3%, Cost: 211.55 USD, Performance Penalty: 7146.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -7.025000000001455, Cost differential: 5.849865395982164
+Current hitrate: 41.2%, New hitrate: 46.1%, Current disk: 5744850.0 TB, New disk: 7756125.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.034999999998945, Cost differential: -4.824745919894681
+Previous hitrate: 34.1%, Previous disk: 3733575.0 TB
+Gradient for metro OKC: -1.6926943420617775
+Gradient step: Increasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 56.47922973632547
+Disk provisioned for metro OKC: 7 TB, Hitrate: 46.1%, Cost: 56.48 USD, Performance Penalty: 2000.52 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13113.17 USD, Total cost: 2081.74 USD, Total performance penalty: 11031.42 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 199764993.5 TB, New disk: 204485864.0 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 24.190000000007558, Cost differential: -3.7510302702680747
+Previous hitrate: 87.9%, Previous disk: 195044123.0 TB
+Gradient for metro DFW: -0.6744833124940897
+Gradient step: Increasing disk for metro: DFW
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.39 ms, P95: 96.81 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 1430.2219085623979
+Disk provisioned for metro DFW: 195 TB, Hitrate: 88.2%, Cost: 1430.22 USD, Performance Penalty: 0.00 USD
+Localized performance penalty and cost_differential for metro IAH after increasing disk: -4.125000000000156, Cost differential: 4.405621495820981
+Current hitrate: 89.3%, New hitrate: 89.6%, Current disk: 66680075.0 TB, New disk: 68691350.0 TB
+Localized performance penalty and cost_differential for metro IAH after decreasing disk: 2.7999999999999403, Cost differential: -4.405621495820753
+Previous hitrate: 89.0%, Previous disk: 64668800.0 TB
+Gradient for metro IAH: 0.9431214958208187
+Gradient step: Decreasing disk for metro: IAH
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.97 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 398.17792762451256
+Disk provisioned for metro IAH: 62 TB, Hitrate: 89.0%, Cost: 398.18 USD, Performance Penalty: 99.41 USD
+Localized performance penalty and cost_differential for metro SAT after increasing disk: -1.0, Cost differential: 5.928067494035531
+Current hitrate: 77.3%, New hitrate: 78.3%, Current disk: 39936525.0 TB, New disk: 41947800.0 TB
+Localized performance penalty and cost_differential for metro SAT after decreasing disk: 13.16500000000633, Cost differential: -5.707565638712282
+Previous hitrate: 76.2%, Previous disk: 37925250.0 TB
+Gradient for metro SAT: -1.2646834336292585
+Gradient step: Increasing disk for metro: SAT
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.02 ms, P95: 108.77 ms
+Cost after disk change: 217.47516798087977
+Disk provisioned for metro SAT: 40 TB, Hitrate: 78.3%, Cost: 217.48 USD, Performance Penalty: 7145.28 USD
+Localized performance penalty and cost_differential for metro OKC after increasing disk: -0.49999999999954525, Cost differential: 6.45561781367023
+Current hitrate: 46.1%, New hitrate: 49.7%, Current disk: 7756125.0 TB, New disk: 9767400.0 TB
+Localized performance penalty and cost_differential for metro OKC after decreasing disk: 7.025000000001455, Cost differential: -5.849865395982164
+Previous hitrate: 41.2%, Previous disk: 5744850.0 TB
+Gradient for metro OKC: 2.3902416048256967
+Gradient step: Decreasing disk for metro: OKC
+Metro: AUS, P50: 28.98 ms, P95: 98.91 ms
+Metro: DFW, P50: 20.75 ms, P95: 100.83 ms
+Metro: IAH, P50: 24.41 ms, P95: 96.9 ms
+Metro: SAT, P50: 34.66 ms, P95: 111.95 ms
+Metro: OKC, P50: 29.03 ms, P95: 108.79 ms
+Cost after disk change: 50.62936434034331
+Disk provisioned for metro OKC: 5 TB, Hitrate: 41.2%, Cost: 50.63 USD, Performance Penalty: 2007.55 USD
+Localized performance penalty and cost_differential for metro AUS after increasing disk: 0.0, Cost differential: 13.9880325302045
+Current hitrate: 9.5%, New hitrate: 28.7%, Current disk: 0.0 TB, New disk: 3459176.5 TB
+Localized performance penalty and cost_differential for metro AUS after decreasing disk: 0.0, Cost differential: 0.0
+Previous hitrate: 9.5%, Previous disk: 0.0 TB
+Gradient for metro AUS: 6.99401626510225
+Gradient step: Decreasing disk for metro: AUS
+Updated Objective Value: 13136.75 USD, Total cost: 2096.50 USD, Total performance penalty: 11040.25 USD
+Localized performance penalty and cost_differential for metro DFW after increasing disk: 0.0, Cost differential: 19.090003104751304
+Current hitrate: 88.2%, New hitrate: 88.2%, Current disk: 204485864.0 TB, New disk: 209206734.5 TB
+Localized performance penalty and cost_differential for metro DFW after decreasing disk: 0.0, Cost differential: -19.090003104751304
+Previous hitrate: 88.2%, Previous disk: 199764993.5 TB
+Gradient for metro DFW: 19.090003104751304
+Gradient step: Decreasing disk for metro: DFW

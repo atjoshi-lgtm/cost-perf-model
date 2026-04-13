@@ -1,0 +1,1769 @@
+Metro: AUS, Max Possible Hitrate: 96.1%
+Metro: DFW, Max Possible Hitrate: 97.3%
+Metro: IAH, Max Possible Hitrate: 97.9%
+Metro: SAT, Max Possible Hitrate: 97.9%
+Metro: OKC, Max Possible Hitrate: 97.9%
+No data found for metro Austin edge TATs
+Edge TAT Hit PDF for metro AUS:
+No data found for midgress RTT between Dallas and Austin
+RTT PDF for cache miss from  metro AUS to parent Dallas:
+No data found for metro Austin and client metro 1138
+RTT PDF for edge AUS to metro AUS:
+No data found for metro Austin and client metro 1147
+RTT PDF for edge DFW to metro AUS:
+Edge TAT Hit PDF for metro DFW:
+RTT PDF for cache miss from  metro DFW to parent Dallas:
+RTT PDF for edge DFW to metro DFW:
+RTT PDF for edge IAH to metro DFW:
+RTT PDF for edge OKC to metro DFW:
+RTT PDF for edge SAT to metro DFW:
+RTT PDF for edge AUS to metro DFW:
+Edge TAT Hit PDF for metro IAH:
+RTT PDF for cache miss from  metro IAH to parent Dallas:
+RTT PDF for edge IAH to metro IAH:
+RTT PDF for edge DFW to metro IAH:
+Edge TAT Hit PDF for metro SAT:
+RTT PDF for cache miss from  metro SAT to parent Dallas:
+RTT PDF for edge SAT to metro SAT:
+RTT PDF for edge DFW to metro SAT:
+No data found for metro Oklahoma_City edge TATs
+Edge TAT Hit PDF for metro OKC:
+RTT PDF for cache miss from  metro OKC to parent Dallas:
+RTT PDF for edge OKC to metro OKC:
+RTT PDF for edge DFW to metro OKC:
+Traffic fraction for DFW: 0.8195968065961
+Traffic fraction for IAH: 0.08386749756886568
+Traffic fraction for SAT: 0.09029777918360168
+Traffic fraction for OKC: 0.006237916651432583
+Traffic fraction for AUS: 0.0
+Incoming traffic for each metro (in Mbps):
+DFW: 116568.50895682289 Mbps
+IAH: 11928.193305370498 Mbps
+SAT: 12842.750724298605 Mbps
+OKC: 887.1979944313923 Mbps
+AUS: 0.0 Mbps
+Metro: DFW, P50: 21.96 ms, P95: 102.9 ms
+Disk provisioned for metro DFW: 159 TB, Hitrate: 86%, Cost: 2373.78 USD, Performance Penalty: 0.00 USD
+Metro: IAH, P50: 28.75 ms, P95: 105.9 ms
+Disk provisioned for metro IAH: 23 TB, Hitrate: 68%, Cost: 448.06 USD, Performance Penalty: 220.42 USD
+Metro: SAT, P50: 42.44 ms, P95: 125.72 ms
+Disk provisioned for metro SAT: 23 TB, Hitrate: 68%, Cost: 468.54 USD, Performance Penalty: 2067.14 USD
+Metro: OKC, P50: 29.49 ms, P95: 110.21 ms
+Disk provisioned for metro OKC: 9 TB, Hitrate: 50%, Cost: 103.20 USD, Performance Penalty: 247.63 USD
+Metro: AUS, P50: 29.03 ms, P95: 99.54 ms
+Disk provisioned for metro AUS: 18 TB, Hitrate: 50%, Cost: 139.52 USD, Performance Penalty: 101.77 USD
+Initial Objective Value: 6170.06 USD
+Gradient for metro DFW: 4.02349578344657
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.99 ms, P95: 103.12 ms
+Metro: IAH, P50: 28.76 ms, P95: 106.06 ms
+Metro: SAT, P50: 42.45 ms, P95: 125.75 ms
+Metro: OKC, P50: 29.52 ms, P95: 110.42 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -4.920620491560214
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.99 ms, P95: 103.1 ms
+Metro: IAH, P50: 28.74 ms, P95: 105.98 ms
+Metro: SAT, P50: 42.45 ms, P95: 125.75 ms
+Metro: OKC, P50: 29.52 ms, P95: 110.42 ms
+Cost after hitrate change: 447.8421771825615
+Disk provisioned for metro IAH: 24 TB, Hitrate: 68.8
+Gradient for metro SAT: -33.01594888227166
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.09 ms
+Metro: IAH, P50: 28.74 ms, P95: 105.98 ms
+Metro: SAT, P50: 42.34 ms, P95: 125.53 ms
+Metro: OKC, P50: 29.52 ms, P95: 110.42 ms
+Cost after hitrate change: 467.81611121195147
+Disk provisioned for metro SAT: 24 TB, Hitrate: 68.8
+Gradient for metro OKC: 2.281356529768054
+Gradient step: Decreasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.09 ms
+Metro: IAH, P50: 28.74 ms, P95: 105.98 ms
+Metro: SAT, P50: 42.34 ms, P95: 125.53 ms
+Metro: OKC, P50: 29.54 ms, P95: 110.46 ms
+Cost after hitrate change: 99.98910744381709
+Disk provisioned for metro OKC: 9 TB, Hitrate: 48.7
+Gradient for metro AUS: 7.681224422264094
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.09 ms
+Metro: IAH, P50: 28.74 ms, P95: 105.98 ms
+Metro: SAT, P50: 42.34 ms, P95: 125.53 ms
+Metro: OKC, P50: 29.54 ms, P95: 110.46 ms
+Cost after hitrate change: 131.90256633033752
+Disk provisioned for metro AUS: 17 TB, Hitrate: 49.3
+Updated Objective Value: 6155.17 USD
+Gradient for metro DFW: -13.030253618555669
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.9 ms
+Metro: IAH, P50: 28.72 ms, P95: 105.83 ms
+Metro: SAT, P50: 42.33 ms, P95: 125.5 ms
+Metro: OKC, P50: 29.51 ms, P95: 110.27 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: -4.827784049154104
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.88 ms
+Metro: IAH, P50: 28.69 ms, P95: 105.76 ms
+Metro: SAT, P50: 42.33 ms, P95: 125.5 ms
+Metro: OKC, P50: 29.51 ms, P95: 110.27 ms
+Cost after hitrate change: 448.1755362837728
+Disk provisioned for metro IAH: 25 TB, Hitrate: 69.6
+Gradient for metro SAT: -32.78278371928607
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.88 ms
+Metro: IAH, P50: 28.69 ms, P95: 105.76 ms
+Metro: SAT, P50: 42.21 ms, P95: 125.28 ms
+Metro: OKC, P50: 29.51 ms, P95: 110.27 ms
+Cost after hitrate change: 467.6373181585629
+Disk provisioned for metro SAT: 25 TB, Hitrate: 69.6
+Gradient for metro OKC: 2.401104460411986
+Gradient step: Decreasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.88 ms
+Metro: IAH, P50: 28.69 ms, P95: 105.76 ms
+Metro: SAT, P50: 42.21 ms, P95: 125.28 ms
+Metro: OKC, P50: 29.53 ms, P95: 110.31 ms
+Cost after hitrate change: 96.23022060239997
+Disk provisioned for metro OKC: 8 TB, Hitrate: 47.6
+Gradient for metro AUS: 9.120784631792702
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.88 ms
+Metro: IAH, P50: 28.69 ms, P95: 105.76 ms
+Metro: SAT, P50: 42.21 ms, P95: 125.28 ms
+Metro: OKC, P50: 29.53 ms, P95: 110.31 ms
+Cost after hitrate change: 121.27685408083596
+Disk provisioned for metro AUS: 16 TB, Hitrate: 48.4
+Updated Objective Value: 6101.73 USD
+Gradient for metro DFW: 3.047945724428949
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.07 ms
+Metro: IAH, P50: 28.71 ms, P95: 105.9 ms
+Metro: SAT, P50: 42.22 ms, P95: 125.31 ms
+Metro: OKC, P50: 29.55 ms, P95: 110.5 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -1.8078460308763198
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.06 ms
+Metro: IAH, P50: 28.68 ms, P95: 105.84 ms
+Metro: SAT, P50: 42.22 ms, P95: 125.31 ms
+Metro: OKC, P50: 29.55 ms, P95: 110.5 ms
+Cost after hitrate change: 454.8273450556827
+Disk provisioned for metro IAH: 27 TB, Hitrate: 70.3
+Gradient for metro SAT: -29.657973446681694
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.05 ms
+Metro: IAH, P50: 28.68 ms, P95: 105.84 ms
+Metro: SAT, P50: 42.12 ms, P95: 125.11 ms
+Metro: OKC, P50: 29.55 ms, P95: 110.5 ms
+Cost after hitrate change: 473.8409937951981
+Disk provisioned for metro SAT: 27 TB, Hitrate: 70.3
+Gradient for metro OKC: 2.645216609117554
+Gradient step: Decreasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.05 ms
+Metro: IAH, P50: 28.68 ms, P95: 105.84 ms
+Metro: SAT, P50: 42.12 ms, P95: 125.11 ms
+Metro: OKC, P50: 29.57 ms, P95: 110.54 ms
+Cost after hitrate change: 92.46105337198665
+Disk provisioned for metro OKC: 8 TB, Hitrate: 46.4
+Gradient for metro AUS: 8.012493151855466
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.98 ms, P95: 103.05 ms
+Metro: IAH, P50: 28.68 ms, P95: 105.84 ms
+Metro: SAT, P50: 42.12 ms, P95: 125.11 ms
+Metro: OKC, P50: 29.57 ms, P95: 110.54 ms
+Cost after hitrate change: 115.87758002662659
+Disk provisioned for metro AUS: 15 TB, Hitrate: 47.2
+Updated Objective Value: 6095.69 USD
+Gradient for metro DFW: -12.97548270484969
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.86 ms
+Metro: IAH, P50: 28.67 ms, P95: 105.69 ms
+Metro: SAT, P50: 42.11 ms, P95: 125.08 ms
+Metro: OKC, P50: 29.55 ms, P95: 110.35 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: -1.055958076204746
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.83 ms
+Metro: IAH, P50: 28.62 ms, P95: 105.57 ms
+Metro: SAT, P50: 42.11 ms, P95: 125.08 ms
+Metro: OKC, P50: 29.55 ms, P95: 110.35 ms
+Cost after hitrate change: 453.33497033387016
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.5
+Gradient for metro SAT: -29.612093566547202
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.82 ms
+Metro: IAH, P50: 28.62 ms, P95: 105.57 ms
+Metro: SAT, P50: 41.93 ms, P95: 124.75 ms
+Metro: OKC, P50: 29.55 ms, P95: 110.35 ms
+Cost after hitrate change: 471.58039084148595
+Disk provisioned for metro SAT: 28 TB, Hitrate: 71.5
+Gradient for metro OKC: 3.0854484116299545
+Gradient step: Decreasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.82 ms
+Metro: IAH, P50: 28.62 ms, P95: 105.57 ms
+Metro: SAT, P50: 41.93 ms, P95: 124.75 ms
+Metro: OKC, P50: 29.56 ms, P95: 110.39 ms
+Cost after hitrate change: 88.63285717698514
+Disk provisioned for metro OKC: 7 TB, Hitrate: 45.1
+Gradient for metro AUS: 5.37120669250487
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.82 ms
+Metro: IAH, P50: 28.62 ms, P95: 105.57 ms
+Metro: SAT, P50: 41.93 ms, P95: 124.75 ms
+Metro: OKC, P50: 29.56 ms, P95: 110.39 ms
+Cost after hitrate change: 110.53444069582622
+Disk provisioned for metro AUS: 14 TB, Hitrate: 46.5
+Updated Objective Value: 6030.47 USD
+Gradient for metro DFW: 4.081154878533404
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.97 ms, P95: 103.01 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.72 ms
+Metro: SAT, P50: 41.94 ms, P95: 124.78 ms
+Metro: OKC, P50: 29.59 ms, P95: 110.58 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 103.0 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.94 ms, P95: 124.78 ms
+Metro: OKC, P50: 29.59 ms, P95: 110.58 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -30.680555296023442
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.99 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.83 ms, P95: 124.56 ms
+Metro: OKC, P50: 29.59 ms, P95: 110.58 ms
+Cost after hitrate change: 472.4016822025159
+Disk provisioned for metro SAT: 29 TB, Hitrate: 72.3
+Gradient for metro OKC: 2.9004079795486106
+Gradient step: Decreasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.99 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.83 ms, P95: 124.56 ms
+Metro: OKC, P50: 29.61 ms, P95: 110.63 ms
+Cost after hitrate change: 84.72057933276531
+Disk provisioned for metro OKC: 6 TB, Hitrate: 43.6
+Gradient for metro AUS: 5.475720684115103
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.99 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.83 ms, P95: 124.56 ms
+Metro: OKC, P50: 29.61 ms, P95: 110.63 ms
+Cost after hitrate change: 104.92613865839638
+Disk provisioned for metro AUS: 14 TB, Hitrate: 45.8
+Updated Objective Value: 6012.28 USD
+Gradient for metro DFW: -11.996275225107091
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.8 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 41.82 ms, P95: 124.53 ms
+Metro: OKC, P50: 29.59 ms, P95: 110.44 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.82 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.82 ms, P95: 124.53 ms
+Metro: OKC, P50: 29.59 ms, P95: 110.44 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -28.239847948380913
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.82 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.71 ms, P95: 124.33 ms
+Metro: OKC, P50: 29.59 ms, P95: 110.44 ms
+Cost after hitrate change: 481.1794303533672
+Disk provisioned for metro SAT: 31 TB, Hitrate: 73.0
+Gradient for metro OKC: 3.080629986282851
+Gradient step: Decreasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.82 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.71 ms, P95: 124.33 ms
+Metro: OKC, P50: 29.61 ms, P95: 110.5 ms
+Cost after hitrate change: 80.71825070312596
+Disk provisioned for metro OKC: 6 TB, Hitrate: 42.0
+Gradient for metro AUS: 5.640801087824514
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.82 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.71 ms, P95: 124.33 ms
+Metro: OKC, P50: 29.61 ms, P95: 110.5 ms
+Cost after hitrate change: 99.25283852017719
+Disk provisioned for metro AUS: 13 TB, Hitrate: 45.0
+Updated Objective Value: 5985.73 USD
+Gradient for metro DFW: 2.735181816191023
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.97 ms, P95: 103.01 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 41.72 ms, P95: 124.37 ms
+Metro: OKC, P50: 29.64 ms, P95: 110.69 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.99 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.72 ms, P95: 124.37 ms
+Metro: OKC, P50: 29.64 ms, P95: 110.69 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -22.669927518909873
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.97 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.55 ms, P95: 124.03 ms
+Metro: OKC, P50: 29.64 ms, P95: 110.69 ms
+Cost after hitrate change: 487.0923385739206
+Disk provisioned for metro SAT: 33 TB, Hitrate: 74.2
+Gradient for metro OKC: 3.258543776017433
+Gradient step: Decreasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.97 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.55 ms, P95: 124.03 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 5.803665647188815
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.97 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.55 ms, P95: 124.03 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 93.31880736401875
+Disk provisioned for metro AUS: 12 TB, Hitrate: 44.2
+Updated Objective Value: 5954.34 USD
+Gradient for metro DFW: -12.341739341285425
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.78 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 41.54 ms, P95: 123.99 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.81 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.54 ms, P95: 123.99 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -22.395385560399717
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.8 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.35 ms, P95: 123.63 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 490.42368977106594
+Disk provisioned for metro SAT: 35 TB, Hitrate: 75.5
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.8 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.35 ms, P95: 123.63 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 5.888606347084043
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.8 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.35 ms, P95: 123.63 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 87.47562582600911
+Disk provisioned for metro AUS: 11 TB, Hitrate: 43.4
+Updated Objective Value: 5907.99 USD
+Gradient for metro DFW: 4.063616141467527
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.99 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 41.35 ms, P95: 123.66 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.96 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.35 ms, P95: 123.66 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -22.654354288261743
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.95 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.19 ms, P95: 123.35 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 498.2053917506893
+Disk provisioned for metro SAT: 37 TB, Hitrate: 76.6
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.95 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.19 ms, P95: 123.35 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 5.884543965784708
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.95 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.19 ms, P95: 123.35 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 81.54971943244934
+Disk provisioned for metro AUS: 11 TB, Hitrate: 42.4
+Updated Objective Value: 5881.58 USD
+Gradient for metro DFW: -13.266584899811129
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.76 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 41.18 ms, P95: 123.31 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.79 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.18 ms, P95: 123.31 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -20.19170567416421
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.78 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.01 ms, P95: 122.96 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 504.9544119041243
+Disk provisioned for metro SAT: 39 TB, Hitrate: 77.8
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.78 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.01 ms, P95: 122.96 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 6.031158999951678
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.78 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 41.01 ms, P95: 122.96 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 75.41330782610575
+Disk provisioned for metro AUS: 10 TB, Hitrate: 41.4
+Updated Objective Value: 5842.88 USD
+Gradient for metro DFW: 3.1211396611646833
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.97 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 41.02 ms, P95: 123.0 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.94 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 41.02 ms, P95: 123.0 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -19.336479096657456
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.93 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.88 ms, P95: 122.7 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 513.1225077759503
+Disk provisioned for metro SAT: 42 TB, Hitrate: 78.8
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.93 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.88 ms, P95: 122.7 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 6.255697893587751
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.93 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.88 ms, P95: 122.7 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 69.03832364527383
+Disk provisioned for metro AUS: 9 TB, Hitrate: 40.4
+Updated Objective Value: 5822.63 USD
+Gradient for metro DFW: -12.306996054254192
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.74 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 40.87 ms, P95: 122.67 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.77 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.87 ms, P95: 122.67 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -19.46140261576369
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.76 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.73 ms, P95: 122.37 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 520.9840785133719
+Disk provisioned for metro SAT: 44 TB, Hitrate: 79.8
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.76 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.73 ms, P95: 122.37 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 4.811705995368953
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.76 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.73 ms, P95: 122.37 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 65.78989583536784
+Disk provisioned for metro AUS: 8 TB, Hitrate: 39.2
+Updated Objective Value: 5794.33 USD
+Gradient for metro DFW: 3.1761066525881816
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.96 ms, P95: 102.95 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 40.74 ms, P95: 122.41 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.93 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.74 ms, P95: 122.41 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -18.181461295880524
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.92 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.61 ms, P95: 122.14 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 532.2625795923012
+Disk provisioned for metro SAT: 46 TB, Hitrate: 80.7
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.92 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.61 ms, P95: 122.14 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 4.959059644317623
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.92 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.61 ms, P95: 122.14 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 59.12020435663859
+Disk provisioned for metro AUS: 8 TB, Hitrate: 38.5
+Updated Objective Value: 5779.26 USD
+Gradient for metro DFW: -13.232360169301465
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.73 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 40.6 ms, P95: 122.1 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.75 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.6 ms, P95: 122.1 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -17.664099452486994
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.74 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.48 ms, P95: 121.83 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 541.7322130708534
+Disk provisioned for metro SAT: 49 TB, Hitrate: 81.6
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.74 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.48 ms, P95: 121.83 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.351464571952821
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.74 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.48 ms, P95: 121.83 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 55.7122357538859
+Disk provisioned for metro AUS: 7 TB, Hitrate: 37.1
+Updated Objective Value: 5756.56 USD
+Gradient for metro DFW: 3.176106652587954
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.94 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 40.49 ms, P95: 121.87 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.91 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.49 ms, P95: 121.87 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -10.933415713269767
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.9 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.38 ms, P95: 121.63 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 565.2496594438869
+Disk provisioned for metro SAT: 53 TB, Hitrate: 82.4
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.9 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.38 ms, P95: 121.63 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.4046448362350468
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.9 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.38 ms, P95: 121.63 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 52.310914684168495
+Disk provisioned for metro AUS: 7 TB, Hitrate: 36.4
+Updated Objective Value: 5761.06 USD
+Gradient for metro DFW: -13.208506569250481
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.71 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 40.37 ms, P95: 121.59 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.74 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.37 ms, P95: 121.59 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -9.497740550830883
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.73 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.2 ms, P95: 121.22 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 576.253839354682
+Disk provisioned for metro SAT: 55 TB, Hitrate: 83.6
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.73 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.2 ms, P95: 121.22 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.4223715909957875
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.73 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.2 ms, P95: 121.22 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 48.867492571894324
+Disk provisioned for metro AUS: 6 TB, Hitrate: 35.6
+Updated Objective Value: 5730.72 USD
+Gradient for metro DFW: 4.0968037589306405
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.92 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 40.21 ms, P95: 121.26 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.89 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.21 ms, P95: 121.26 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -12.316215774578154
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.89 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.06 ms, P95: 120.92 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 591.0826649664818
+Disk provisioned for metro SAT: 59 TB, Hitrate: 84.7
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.89 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.06 ms, P95: 120.92 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.5113746721903496
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.89 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 40.06 ms, P95: 120.92 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 45.288165339787795
+Disk provisioned for metro AUS: 6 TB, Hitrate: 34.7
+Updated Objective Value: 5719.04 USD
+Gradient for metro DFW: -13.17531895178714
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.69 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 40.05 ms, P95: 120.88 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.72 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 40.05 ms, P95: 120.88 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -19.545428612237515
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.71 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.91 ms, P95: 120.55 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 586.2576898520906
+Disk provisioned for metro SAT: 59 TB, Hitrate: 85.8
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.71 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.91 ms, P95: 120.55 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.5667707808176665
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.92 ms, P95: 102.71 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.91 ms, P95: 120.55 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 41.73395101025899
+Disk provisioned for metro AUS: 5 TB, Hitrate: 33.7
+Updated Objective Value: 5678.82 USD
+Gradient for metro DFW: 3.235222096194242
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.95 ms, P95: 102.9 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.92 ms, P95: 120.59 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.88 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.92 ms, P95: 120.59 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -27.456108524987997
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.79 ms, P95: 120.28 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 584.0593272627909
+Disk provisioned for metro SAT: 60 TB, Hitrate: 86.8
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.79 ms, P95: 120.28 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.591514376004536
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.79 ms, P95: 120.28 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 38.10513658777872
+Disk provisioned for metro AUS: 5 TB, Hitrate: 32.7
+Updated Objective Value: 5654.12 USD
+Gradient for metro DFW: -12.276919775927546
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.79 ms, P95: 120.24 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.7 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.79 ms, P95: 120.24 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -26.231570880983043
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.69 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.68 ms, P95: 119.96 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 579.7249890861967
+Disk provisioned for metro SAT: 61 TB, Hitrate: 87.7
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.69 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.68 ms, P95: 119.96 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.685318453280132
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.69 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.68 ms, P95: 119.96 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 34.36331410369873
+Disk provisioned for metro AUS: 4 TB, Hitrate: 31.700000000000003
+Updated Objective Value: 5621.79 USD
+Gradient for metro DFW: 4.124287254642276
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.89 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.68 ms, P95: 120.0 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.86 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.68 ms, P95: 120.0 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: -26.630440563292268
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.56 ms, P95: 119.7 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 578.1212113961636
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.7
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.56 ms, P95: 119.7 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.7920482892354315
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.56 ms, P95: 119.7 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 30.52104000930786
+Disk provisioned for metro AUS: 4 TB, Hitrate: 30.5
+Updated Objective Value: 5597.81 USD
+Gradient for metro DFW: -13.123463299500905
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.55 ms, P95: 119.66 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.55 ms, P95: 119.66 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -3.695183664550143
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.42 ms, P95: 119.32 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 615.7680634589472
+Disk provisioned for metro SAT: 68 TB, Hitrate: 89.8
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.42 ms, P95: 119.32 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.8780969113031993
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.42 ms, P95: 119.32 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 26.607120281092328
+Disk provisioned for metro AUS: 3 TB, Hitrate: 29.2
+Updated Objective Value: 5602.13 USD
+Gradient for metro DFW: 3.2860406354347234
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.43 ms, P95: 119.36 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.43 ms, P95: 119.36 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 3.9600831520716344
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 22.60087370516459
+Disk provisioned for metro AUS: 3 TB, Hitrate: 27.7
+Updated Objective Value: 5585.47 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -5.556373602016947
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 613.9700783575454
+Disk provisioned for metro SAT: 68 TB, Hitrate: 90.0
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 4.06939813976288
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 26.1
+Updated Objective Value: 5586.78 USD
+Gradient for metro DFW: 4.138806837282495
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5581.34 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -5.556373602016947
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 613.9700783575454
+Disk provisioned for metro SAT: 68 TB, Hitrate: 90.0
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5586.78 USD
+Gradient for metro DFW: 4.138806837282495
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5581.34 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -5.556373602016947
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 613.9700783575454
+Disk provisioned for metro SAT: 68 TB, Hitrate: 90.0
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5586.78 USD
+Gradient for metro DFW: 4.138806837282495
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5581.34 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -5.556373602016947
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 613.9700783575454
+Disk provisioned for metro SAT: 68 TB, Hitrate: 90.0
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5586.78 USD
+Gradient for metro DFW: 4.138806837282495
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5581.34 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -5.556373602016947
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 613.9700783575454
+Disk provisioned for metro SAT: 68 TB, Hitrate: 90.0
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5586.78 USD
+Gradient for metro DFW: 4.138806837282495
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5581.34 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -5.556373602016947
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 613.9700783575454
+Disk provisioned for metro SAT: 68 TB, Hitrate: 90.0
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5586.78 USD
+Gradient for metro DFW: 4.138806837282495
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5581.34 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.68 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 457.5098379907498
+Disk provisioned for metro IAH: 28 TB, Hitrate: 71.0
+Gradient for metro SAT: -5.556373602016947
+Gradient step: Increasing hitrate for metro: SAT
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 613.9700783575454
+Disk provisioned for metro SAT: 68 TB, Hitrate: 90.0
+Gradient for metro OKC: -1.8471309024671712
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.91 ms, P95: 102.67 ms
+Metro: IAH, P50: 28.64 ms, P95: 105.62 ms
+Metro: SAT, P50: 39.39 ms, P95: 119.26 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5586.78 USD
+Gradient for metro DFW: 4.138806837282495
+Gradient step: Decreasing hitrate for metro: DFW
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.94 ms, P95: 102.87 ms
+Metro: IAH, P50: 28.66 ms, P95: 105.77 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 2386.2479737412796
+Disk provisioned for metro DFW: 149 TB, Hitrate: 84.9
+Gradient for metro IAH: -3.293110766659538
+Gradient step: Increasing hitrate for metro: IAH
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.84 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.4 ms, P95: 119.3 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 454.66841384949987
+Disk provisioned for metro IAH: 29 TB, Hitrate: 72.3
+Gradient for metro SAT: 36.960814311976094
+Gradient step: Decreasing hitrate for metro: SAT
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 577.441489074252
+Disk provisioned for metro SAT: 62 TB, Hitrate: 88.9
+Gradient for metro OKC: -1.8518395991846148
+Gradient step: Increasing hitrate for metro: OKC
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 76.62076120254281
+Disk provisioned for metro OKC: 5 TB, Hitrate: 40.2
+Gradient for metro AUS: 0.0
+Gradient step: Decreasing hitrate for metro: AUS
+Metro: AUS, P50: 29.06 ms, P95: 99.85 ms
+Metro: DFW, P50: 21.93 ms, P95: 102.85 ms
+Metro: IAH, P50: 28.61 ms, P95: 105.64 ms
+Metro: SAT, P50: 39.54 ms, P95: 119.64 ms
+Metro: OKC, P50: 29.66 ms, P95: 110.75 ms
+Cost after hitrate change: 18.468324001566568
+Disk provisioned for metro AUS: 2 TB, Hitrate: 24.1
+Updated Objective Value: 5581.34 USD
+Gradient for metro DFW: -12.263437306333422
+Gradient step: Increasing hitrate for metro: DFW
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms
+Metro: DFW, P50: 21.9 ms, P95: 102.66 ms
+Metro: IAH, P50: 28.59 ms, P95: 105.49 ms
+Metro: SAT, P50: 39.53 ms, P95: 119.6 ms
+Metro: OKC, P50: 29.63 ms, P95: 110.56 ms
+Cost after hitrate change: 2381.9416226874664
+Disk provisioned for metro DFW: 159 TB, Hitrate: 85.9
+Gradient for metro IAH: 0.029207325412116347
+Gradient step: Decreasing hitrate for metro: IAH
+Metro: AUS, P50: 29.03 ms, P95: 99.57 ms

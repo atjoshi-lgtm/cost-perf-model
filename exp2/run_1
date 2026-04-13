@@ -1,0 +1,424 @@
+Metro: SEA, Max Possible Hitrate: 96.1%
+Metro: YVR, Max Possible Hitrate: 96.9%
+Metro: PDX, Max Possible Hitrate: 96.9%
+Metro: SLC, Max Possible Hitrate: 99.0%
+Metro: SJC, Max Possible Hitrate: 99.0%
+Edge TAT Hit PDF for metro SEA:
+RTT PDF for cache miss from  metro SEA to parent Seattle:
+RTT PDF for edge SEA to metro SEA:
+RTT PDF for edge YVR to metro SEA:
+RTT PDF for edge PDX to metro SEA:
+RTT PDF for edge SLC to metro SEA:
+RTT PDF for edge SJC to metro SEA:
+Edge TAT Hit PDF for metro YVR:
+RTT PDF for cache miss from  metro YVR to parent Seattle:
+RTT PDF for edge YVR to metro YVR:
+RTT PDF for edge SEA to metro YVR:
+Edge TAT Hit PDF for metro PDX:
+RTT PDF for cache miss from  metro PDX to parent Seattle:
+RTT PDF for edge PDX to metro PDX:
+RTT PDF for edge SEA to metro PDX:
+RTT PDF for edge SJC to metro PDX:
+Edge TAT Hit PDF for metro SLC:
+RTT PDF for cache miss from  metro SLC to parent Seattle:
+RTT PDF for edge SLC to metro SLC:
+/Users/ansabni/Work/CostPerfServedTo/probability.py:246: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  _, axes = plt.subplots()  # type: ignore[assignment]
+RTT PDF for edge SJC to metro SLC:
+RTT PDF for edge SEA to metro SLC:
+Edge TAT Hit PDF for metro SJC:
+RTT PDF for cache miss from  metro SJC to parent San_Jose:
+RTT PDF for edge SJC to metro SJC:
+RTT PDF for edge SEA to metro SJC:
+RTT PDF for edge PDX to metro SJC:
+RTT PDF for edge SLC to metro SJC:
+Metro: SEA, P50: 28.062 ms, P95: 117.478 ms
+Disk provisioned for metro SEA: 37 TB, Hitrate: 62%, Cost: 986.56 USD, Performance Penalty: 748.18 USD
+Metro: YVR, P50: 23.273 ms, P95: 106.064 ms
+Disk provisioned for metro YVR: 115 TB, Hitrate: 87%, Cost: 1797.61 USD, Performance Penalty: 0.00 USD
+Metro: PDX, P50: 26.072 ms, P95: 104.534 ms
+Disk provisioned for metro PDX: 49 TB, Hitrate: 71%, Cost: 910.90 USD, Performance Penalty: 0.00 USD
+Metro: SLC, P50: 34.072 ms, P95: 117.522 ms
+Disk provisioned for metro SLC: 41 TB, Hitrate: 66%, Cost: 941.69 USD, Performance Penalty: 4439.12 USD
+Metro: SJC, P50: 32.439 ms, P95: 134.298 ms
+Disk provisioned for metro SJC: 168 TB, Hitrate: 89%, Cost: 2207.11 USD, Performance Penalty: 4400.27 USD
+Initial Objective Value: 16431.44 USD
+Gradient for metro SEA: -25.675220637795405
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 28.042 ms, P95: 117.4 ms
+Metro: YVR, P50: 23.264 ms, P95: 105.974 ms
+Metro: PDX, P50: 26.064 ms, P95: 104.51 ms
+Metro: SLC, P50: 34.068 ms, P95: 117.47 ms
+Metro: SJC, P50: 32.437 ms, P95: 134.264 ms
+Cost after hitrate change: 992.8343077697982
+Disk provisioned for metro SEA: 40 TB
+Gradient for metro YVR: 0.9458185018228278
+Gradient step: Decreasing hitrate for metro: YVR
+Metro: SEA, P50: 28.047 ms, P95: 117.426 ms
+Metro: YVR, P50: 23.304 ms, P95: 106.134 ms
+Metro: PDX, P50: 26.064 ms, P95: 104.51 ms
+Metro: SLC, P50: 34.068 ms, P95: 117.47 ms
+Metro: SJC, P50: 32.437 ms, P95: 134.264 ms
+Cost after hitrate change: 1799.0664282411485
+Disk provisioned for metro YVR: 106 TB
+Gradient for metro PDX: -17.93153937876866
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 28.043 ms, P95: 117.407 ms
+Metro: YVR, P50: 23.304 ms, P95: 106.134 ms
+Metro: PDX, P50: 26.038 ms, P95: 104.391 ms
+Metro: SLC, P50: 34.068 ms, P95: 117.47 ms
+Metro: SJC, P50: 32.433 ms, P95: 134.236 ms
+Cost after hitrate change: 910.4966702381357
+Disk provisioned for metro PDX: 50 TB
+Gradient for metro SLC: -188.11030469929437
+Gradient step: Increasing hitrate for metro: SLC
+Metro: SEA, P50: 28.03 ms, P95: 117.395 ms
+Metro: YVR, P50: 23.304 ms, P95: 106.134 ms
+Metro: PDX, P50: 26.038 ms, P95: 104.391 ms
+Metro: SLC, P50: 34.005 ms, P95: 117.35 ms
+Metro: SJC, P50: 32.412 ms, P95: 134.197 ms
+Cost after hitrate change: 946.6199731041468
+Disk provisioned for metro SLC: 43 TB
+Gradient for metro SJC: -73.9108153135021
+Gradient step: Increasing hitrate for metro: SJC
+Metro: SEA, P50: 28.027 ms, P95: 117.351 ms
+Metro: YVR, P50: 23.304 ms, P95: 106.134 ms
+Metro: PDX, P50: 26.033 ms, P95: 104.294 ms
+Metro: SLC, P50: 33.999 ms, P95: 117.274 ms
+Metro: SJC, P50: 32.369 ms, P95: 134.117 ms
+Cost after hitrate change: 2208.0959521686395
+Disk provisioned for metro SJC: 178 TB
+Updated Objective Value: 16239.00 USD
+Gradient for metro SEA: -25.07759082193286
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.998 ms, P95: 117.232 ms
+Metro: YVR, P50: 23.291 ms, P95: 105.998 ms
+Metro: PDX, P50: 26.022 ms, P95: 104.257 ms
+Metro: SLC, P50: 33.993 ms, P95: 117.194 ms
+Metro: SJC, P50: 32.366 ms, P95: 134.064 ms
+Cost after hitrate change: 994.7893214031603
+Disk provisioned for metro SEA: 43 TB
+Gradient for metro YVR: -18.71825945393209
+Gradient step: Increasing hitrate for metro: YVR
+Metro: SEA, P50: 27.994 ms, P95: 117.21 ms
+Metro: YVR, P50: 23.259 ms, P95: 105.873 ms
+Metro: PDX, P50: 26.022 ms, P95: 104.257 ms
+Metro: SLC, P50: 33.993 ms, P95: 117.194 ms
+Metro: SJC, P50: 32.366 ms, P95: 134.064 ms
+Cost after hitrate change: 1782.541955460667
+Disk provisioned for metro YVR: 111 TB
+Gradient for metro PDX: -11.372775315503418
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 27.99 ms, P95: 117.191 ms
+Metro: YVR, P50: 23.259 ms, P95: 105.873 ms
+Metro: PDX, P50: 25.996 ms, P95: 104.136 ms
+Metro: SLC, P50: 33.993 ms, P95: 117.194 ms
+Metro: SJC, P50: 32.361 ms, P95: 134.036 ms
+Cost after hitrate change: 923.2559977835544
+Disk provisioned for metro PDX: 54 TB
+Gradient for metro SLC: -187.3577224792769
+Gradient step: Increasing hitrate for metro: SLC
+Metro: SEA, P50: 27.973 ms, P95: 117.174 ms
+Metro: YVR, P50: 23.259 ms, P95: 105.873 ms
+Metro: PDX, P50: 25.996 ms, P95: 104.136 ms
+Metro: SLC, P50: 33.909 ms, P95: 117.031 ms
+Metro: SJC, P50: 32.334 ms, P95: 133.984 ms
+Cost after hitrate change: 947.4752225588247
+Disk provisioned for metro SLC: 45 TB
+Gradient for metro SJC: -59.053548731715296
+Gradient step: Increasing hitrate for metro: SJC
+Metro: SEA, P50: 27.971 ms, P95: 117.13 ms
+Metro: YVR, P50: 23.259 ms, P95: 105.873 ms
+Metro: PDX, P50: 25.992 ms, P95: 104.037 ms
+Metro: SLC, P50: 33.903 ms, P95: 116.955 ms
+Metro: SJC, P50: 32.291 ms, P95: 133.904 ms
+Cost after hitrate change: 2218.0279159401052
+Disk provisioned for metro SJC: 190 TB
+Updated Objective Value: 15990.80 USD
+Gradient for metro SEA: -23.666955039625634
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.942 ms, P95: 117.007 ms
+Metro: YVR, P50: 23.246 ms, P95: 105.739 ms
+Metro: PDX, P50: 25.982 ms, P95: 103.998 ms
+Metro: SLC, P50: 33.897 ms, P95: 116.875 ms
+Metro: SJC, P50: 32.287 ms, P95: 133.851 ms
+Cost after hitrate change: 996.3211087666097
+Disk provisioned for metro SEA: 46 TB
+Gradient for metro YVR: -13.000950350983203
+Gradient step: Increasing hitrate for metro: YVR
+Metro: SEA, P50: 27.938 ms, P95: 116.986 ms
+Metro: YVR, P50: 23.214 ms, P95: 105.611 ms
+Metro: PDX, P50: 25.982 ms, P95: 103.998 ms
+Metro: SLC, P50: 33.897 ms, P95: 116.875 ms
+Metro: SJC, P50: 32.287 ms, P95: 133.851 ms
+Cost after hitrate change: 1780.9205131304984
+Disk provisioned for metro YVR: 118 TB
+Gradient for metro PDX: -10.874492677206888
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 27.932 ms, P95: 116.95 ms
+Metro: YVR, P50: 23.214 ms, P95: 105.611 ms
+Metro: PDX, P50: 25.936 ms, P95: 103.771 ms
+Metro: SLC, P50: 33.897 ms, P95: 116.875 ms
+Metro: SJC, P50: 32.28 ms, P95: 133.799 ms
+Cost after hitrate change: 911.7757848837172
+Disk provisioned for metro PDX: 55 TB
+Gradient for metro SLC: -186.36140572175748
+Gradient step: Increasing hitrate for metro: SLC
+Metro: SEA, P50: 27.914 ms, P95: 116.934 ms
+Metro: YVR, P50: 23.214 ms, P95: 105.611 ms
+Metro: PDX, P50: 25.936 ms, P95: 103.771 ms
+Metro: SLC, P50: 33.812 ms, P95: 116.712 ms
+Metro: SJC, P50: 32.252 ms, P95: 133.747 ms
+Cost after hitrate change: 947.8193505845684
+Disk provisioned for metro SLC: 47 TB
+Gradient for metro SJC: -41.72360324094035
+Gradient step: Increasing hitrate for metro: SJC
+Metro: SEA, P50: 27.912 ms, P95: 116.894 ms
+Metro: YVR, P50: 23.214 ms, P95: 105.611 ms
+Metro: PDX, P50: 25.933 ms, P95: 103.681 ms
+Metro: SLC, P50: 33.807 ms, P95: 116.642 ms
+Metro: SJC, P50: 32.213 ms, P95: 133.674 ms
+Cost after hitrate change: 2260.571883226188
+Disk provisioned for metro SJC: 205 TB
+Updated Objective Value: 15765.47 USD
+Gradient for metro SEA: -21.960770681728718
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.884 ms, P95: 116.771 ms
+Metro: YVR, P50: 23.201 ms, P95: 105.473 ms
+Metro: PDX, P50: 25.923 ms, P95: 103.641 ms
+Metro: SLC, P50: 33.801 ms, P95: 116.56 ms
+Metro: SJC, P50: 32.21 ms, P95: 133.621 ms
+Cost after hitrate change: 1000.9801911157668
+Disk provisioned for metro SEA: 50 TB
+Gradient for metro YVR: -3.2996145007760447
+Gradient step: Increasing hitrate for metro: YVR
+Metro: SEA, P50: 27.88 ms, P95: 116.749 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.343 ms
+Metro: PDX, P50: 25.923 ms, P95: 103.641 ms
+Metro: SLC, P50: 33.801 ms, P95: 116.56 ms
+Metro: SJC, P50: 32.21 ms, P95: 133.621 ms
+Cost after hitrate change: 1809.3666013336742
+Disk provisioned for metro YVR: 129 TB
+Gradient for metro PDX: -10.98416906016422
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 27.877 ms, P95: 116.73 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.343 ms
+Metro: PDX, P50: 25.898 ms, P95: 103.516 ms
+Metro: SLC, P50: 33.801 ms, P95: 116.56 ms
+Metro: SJC, P50: 32.206 ms, P95: 133.592 ms
+Cost after hitrate change: 925.0964596632259
+Disk provisioned for metro PDX: 59 TB
+Gradient for metro SLC: -178.5750456063853
+Gradient step: Increasing hitrate for metro: SLC
+
+
+Metro: SEA, P50: 27.861 ms, P95: 116.715 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.343 ms
+Metro: PDX, P50: 25.898 ms, P95: 103.516 ms
+Metro: SLC, P50: 33.726 ms, P95: 116.415 ms
+Metro: SJC, P50: 32.182 ms, P95: 133.547 ms
+Cost after hitrate change: 964.364817500969
+Disk provisioned for metro SLC: 51 TB
+Gradient for metro SJC: 21.00448244517372
+Gradient step: Decreasing hitrate for metro: SJC
+Metro: SEA, P50: 27.863 ms, P95: 116.76 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.343 ms
+Metro: PDX, P50: 25.903 ms, P95: 103.617 ms
+Metro: SLC, P50: 33.732 ms, P95: 116.495 ms
+Metro: SJC, P50: 32.224 ms, P95: 133.629 ms
+Cost after hitrate change: 2226.2966534795337
+Disk provisioned for metro SJC: 190 TB
+Updated Objective Value: 15684.30 USD
+Gradient for metro SEA: -20.622438857362226
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.838 ms, P95: 116.645 ms
+Metro: YVR, P50: 23.157 ms, P95: 105.214 ms
+Metro: PDX, P50: 25.894 ms, P95: 103.58 ms
+Metro: SLC, P50: 33.727 ms, P95: 116.418 ms
+Metro: SJC, P50: 32.221 ms, P95: 133.58 ms
+Cost after hitrate change: 1008.5492393589329
+Disk provisioned for metro SEA: 53 TB
+Gradient for metro YVR: 22.22691235469233
+Gradient step: Decreasing hitrate for metro: YVR
+Metro: SEA, P50: 27.842 ms, P95: 116.669 ms
+Metro: YVR, P50: 23.193 ms, P95: 105.362 ms
+Metro: PDX, P50: 25.894 ms, P95: 103.58 ms
+Metro: SLC, P50: 33.727 ms, P95: 116.418 ms
+Metro: SJC, P50: 32.221 ms, P95: 133.58 ms
+Cost after hitrate change: 1787.9264818491379
+Disk provisioned for metro YVR: 118 TB
+Gradient for metro PDX: -4.882388053478564
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 27.836 ms, P95: 116.636 ms
+Metro: YVR, P50: 23.193 ms, P95: 105.362 ms
+Metro: PDX, P50: 25.852 ms, P95: 103.362 ms
+Metro: SLC, P50: 33.727 ms, P95: 116.418 ms
+Metro: SJC, P50: 32.214 ms, P95: 133.53 ms
+Cost after hitrate change: 927.8765060077449
+Disk provisioned for metro PDX: 62 TB
+Gradient for metro SLC: -171.62709742390126
+Gradient step: Increasing hitrate for metro: SLC
+Metro: SEA, P50: 27.807 ms, P95: 116.609 ms
+Metro: YVR, P50: 23.193 ms, P95: 105.362 ms
+Metro: PDX, P50: 25.852 ms, P95: 103.362 ms
+Metro: SLC, P50: 33.586 ms, P95: 116.148 ms
+Metro: SJC, P50: 32.169 ms, P95: 133.448 ms
+Cost after hitrate change: 967.7019557367669
+Disk provisioned for metro SLC: 54 TB
+Gradient for metro SJC: -41.253003240942405
+Gradient step: Increasing hitrate for metro: SJC
+Metro: SEA, P50: 27.804 ms, P95: 116.564 ms
+Metro: YVR, P50: 23.193 ms, P95: 105.362 ms
+Metro: PDX, P50: 25.848 ms, P95: 103.259 ms
+Metro: SLC, P50: 33.58 ms, P95: 116.067 ms
+Metro: SJC, P50: 32.126 ms, P95: 133.365 ms
+Cost after hitrate change: 2260.571883226188
+Disk provisioned for metro SJC: 205 TB
+Updated Objective Value: 15368.25 USD
+Gradient for metro SEA: -20.81814062719394
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.776 ms, P95: 116.435 ms
+Metro: YVR, P50: 23.181 ms, P95: 105.221 ms
+Metro: PDX, P50: 25.838 ms, P95: 103.217 ms
+Metro: SLC, P50: 33.574 ms, P95: 115.982 ms
+Metro: SJC, P50: 32.123 ms, P95: 133.311 ms
+Cost after hitrate change: 1014.3406181684325
+Disk provisioned for metro SEA: 57 TB
+Gradient for metro YVR: -3.3496145007762834
+Gradient step: Increasing hitrate for metro: YVR
+Metro: SEA, P50: 27.772 ms, P95: 116.41 ms
+Metro: YVR, P50: 23.145 ms, P95: 105.071 ms
+Metro: PDX, P50: 25.838 ms, P95: 103.217 ms
+Metro: SLC, P50: 33.574 ms, P95: 115.982 ms
+Metro: SJC, P50: 32.123 ms, P95: 133.311 ms
+Cost after hitrate change: 1809.3666013336742
+Disk provisioned for metro YVR: 129 TB
+Gradient for metro PDX: -5.537296812214379
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 27.766 ms, P95: 116.376 ms
+Metro: YVR, P50: 23.145 ms, P95: 105.071 ms
+Metro: PDX, P50: 25.796 ms, P95: 102.993 ms
+Metro: SLC, P50: 33.574 ms, P95: 115.982 ms
+Metro: SJC, P50: 32.116 ms, P95: 133.26 ms
+Cost after hitrate change: 930.6646771148617
+Disk provisioned for metro PDX: 65 TB
+Gradient for metro SLC: -174.87879834591314
+Gradient step: Increasing hitrate for metro: SLC
+Metro: SEA, P50: 27.738 ms, P95: 116.35 ms
+Metro: YVR, P50: 23.145 ms, P95: 105.071 ms
+Metro: PDX, P50: 25.796 ms, P95: 102.993 ms
+Metro: SLC, P50: 33.442 ms, P95: 115.735 ms
+Metro: SJC, P50: 32.074 ms, P95: 133.184 ms
+Cost after hitrate change: 965.6337346542224
+Disk provisioned for metro SLC: 57 TB
+Gradient for metro SJC: 21.904782445170895
+Gradient step: Decreasing hitrate for metro: SJC
+Metro: SEA, P50: 27.741 ms, P95: 116.396 ms
+Metro: YVR, P50: 23.145 ms, P95: 105.071 ms
+Metro: PDX, P50: 25.8 ms, P95: 103.098 ms
+Metro: SLC, P50: 33.448 ms, P95: 115.815 ms
+Metro: SJC, P50: 32.117 ms, P95: 133.268 ms
+Cost after hitrate change: 2226.2966534795337
+Disk provisioned for metro SJC: 190 TB
+Updated Objective Value: 15157.24 USD
+Gradient for metro SEA: -18.427684226127724
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.715 ms, P95: 116.275 ms
+Metro: YVR, P50: 23.133 ms, P95: 104.941 ms
+Metro: PDX, P50: 25.791 ms, P95: 103.058 ms
+Metro: SLC, P50: 33.443 ms, P95: 115.738 ms
+Metro: SJC, P50: 32.114 ms, P95: 133.217 ms
+Cost after hitrate change: 1025.8272792137227
+Disk provisioned for metro SEA: 61 TB
+Gradient for metro YVR: 22.076912354692297
+Gradient step: Decreasing hitrate for metro: YVR
+Metro: SEA, P50: 27.719 ms, P95: 116.301 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.09 ms
+Metro: PDX, P50: 25.791 ms, P95: 103.058 ms
+Metro: SLC, P50: 33.443 ms, P95: 115.738 ms
+Metro: SJC, P50: 32.114 ms, P95: 133.217 ms
+Cost after hitrate change: 1787.9264818491379
+Disk provisioned for metro YVR: 118 TB
+Gradient for metro PDX: -2.8157003820080604
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 27.714 ms, P95: 116.269 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.09 ms
+Metro: PDX, P50: 25.753 ms, P95: 102.852 ms
+Metro: SLC, P50: 33.443 ms, P95: 115.738 ms
+Metro: SJC, P50: 32.108 ms, P95: 133.171 ms
+Cost after hitrate change: 939.8823135507769
+Disk provisioned for metro PDX: 69 TB
+Gradient for metro SLC: -171.0450797594948
+Gradient step: Increasing hitrate for metro: SLC
+Metro: SEA, P50: 27.698 ms, P95: 116.254 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.09 ms
+Metro: PDX, P50: 25.753 ms, P95: 102.852 ms
+Metro: SLC, P50: 33.365 ms, P95: 115.593 ms
+Metro: SJC, P50: 32.084 ms, P95: 133.127 ms
+Cost after hitrate change: 970.9803242505245
+Disk provisioned for metro SLC: 59 TB
+Gradient for metro SJC: -40.14415324094108
+Gradient step: Increasing hitrate for metro: SJC
+Metro: SEA, P50: 27.695 ms, P95: 116.208 ms
+Metro: YVR, P50: 23.169 ms, P95: 105.09 ms
+Metro: PDX, P50: 25.749 ms, P95: 102.747 ms
+Metro: SLC, P50: 33.359 ms, P95: 115.511 ms
+Metro: SJC, P50: 32.041 ms, P95: 133.043 ms
+Cost after hitrate change: 2260.571883226188
+Disk provisioned for metro SJC: 205 TB
+Updated Objective Value: 14966.24 USD
+Gradient for metro SEA: -16.81980955018969
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.67 ms, P95: 116.084 ms
+Metro: YVR, P50: 23.157 ms, P95: 104.959 ms
+Metro: PDX, P50: 25.74 ms, P95: 102.706 ms
+Metro: SLC, P50: 33.354 ms, P95: 115.432 ms
+Metro: SJC, P50: 32.038 ms, P95: 132.992 ms
+Cost after hitrate change: 1036.511804606089
+Disk provisioned for metro SEA: 65 TB
+Gradient for metro YVR: -3.39961450077584
+Gradient step: Increasing hitrate for metro: YVR
+Metro: SEA, P50: 27.665 ms, P95: 116.059 ms
+Metro: YVR, P50: 23.121 ms, P95: 104.814 ms
+Metro: PDX, P50: 25.74 ms, P95: 102.706 ms
+Metro: SLC, P50: 33.354 ms, P95: 115.432 ms
+Metro: SJC, P50: 32.038 ms, P95: 132.992 ms
+Cost after hitrate change: 1809.3666013336742
+Disk provisioned for metro YVR: 129 TB
+Gradient for metro PDX: -3.523402224697179
+Gradient step: Increasing hitrate for metro: PDX
+Metro: SEA, P50: 27.66 ms, P95: 116.029 ms
+Metro: YVR, P50: 23.121 ms, P95: 104.814 ms
+Metro: PDX, P50: 25.706 ms, P95: 102.514 ms
+Metro: SLC, P50: 33.354 ms, P95: 115.432 ms
+Metro: SJC, P50: 32.032 ms, P95: 132.95 ms
+Cost after hitrate change: 945.7715754344832
+Disk provisioned for metro PDX: 72 TB
+Gradient for metro SLC: -169.3191029884016
+Gradient step: Increasing hitrate for metro: SLC
+Metro: SEA, P50: 27.641 ms, P95: 116.012 ms
+Metro: YVR, P50: 23.121 ms, P95: 104.814 ms
+Metro: PDX, P50: 25.706 ms, P95: 102.514 ms
+Metro: SLC, P50: 33.263 ms, P95: 115.263 ms
+Metro: SJC, P50: 32.004 ms, P95: 132.901 ms
+Cost after hitrate change: 992.1290148323437
+Disk provisioned for metro SLC: 64 TB
+Gradient for metro SJC: 22.41458244517247
+Gradient step: Decreasing hitrate for metro: SJC
+Metro: SEA, P50: 27.644 ms, P95: 116.059 ms
+Metro: YVR, P50: 23.121 ms, P95: 104.814 ms
+Metro: PDX, P50: 25.71 ms, P95: 102.621 ms
+Metro: SLC, P50: 33.269 ms, P95: 115.347 ms
+Metro: SJC, P50: 32.047 ms, P95: 132.984 ms
+Cost after hitrate change: 2226.2966534795337
+Disk provisioned for metro SJC: 190 TB
+Updated Objective Value: 14863.13 USD
+Gradient for metro SEA: -16.80294997123019
+Gradient step: Increasing hitrate for metro: SEA
+Metro: SEA, P50: 27.618 ms, P95: 115.936 ms
+Metro: YVR, P50: 23.11 ms, P95: 104.685 ms
+Metro: PDX, P50: 25.701 ms, P95: 102.58 ms
+Metro: SLC, P50: 33.264 ms, P95: 115.267 ms
+Metro: SJC, P50: 32.044 ms, P95: 132.933 ms
+Cost after hitrate change: 1048.2761848092978
+Disk provisioned for metro SEA: 69 TB

@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import csv
 from dataclasses import dataclass
 from math import ceil
+from pathlib import Path
 from typing import Optional
 
 from fds import FootprintDescriptor
@@ -26,6 +28,8 @@ KW_INFRA_COST_PER_KW_MONTH = 80.0
 MIDGRESS_COST_PER_Mbps_MONTH_NONMCH = 0.07  # 7 cents per Mbps-month
 MIDGRESS_COST_PER_Mbps_MONTH_MCH = 0.01  # 1 cent per Mbps-month for MCH traffic
 
+DEFAULT_EFFCAP_MBPS = 24966.0  # fallback if not found in effcaps.csv
+
 # The energy provider charges on a metered basis per kWh.  The exact rate can
 # vary between deployments, so the calculator exposes it as a configurable
 # parameter.  We keep a conservative default that can be overridden.
@@ -34,6 +38,27 @@ DEFAULT_METERED_POWER_RATE_PER_KWH = 0.12
 # Average number of hours in a month.  This value can be tuned if a specific
 # calendar month is required.
 DEFAULT_HOURS_PER_MONTH = 24 * 30.4375  # ≈ 730.5 hours
+
+_EFFCAP_TABLE: dict[tuple[str, str], float] = {}
+
+def _load_effcaps() -> dict[tuple[str, str], float]:
+	global _EFFCAP_TABLE
+	if _EFFCAP_TABLE:
+		return _EFFCAP_TABLE
+	effcap_path = Path(__file__).resolve().parent / "COST" / "effcaps.csv"
+	if not effcap_path.exists():
+		return _EFFCAP_TABLE
+	with effcap_path.open(newline="", encoding="utf-8-sig") as f:
+		reader = csv.DictReader(f)
+		for row in reader:
+			key = (row["macroarea"].strip(), row["traffic_class"].strip())
+			_EFFCAP_TABLE[key] = float(row["effcap"].strip())
+	return _EFFCAP_TABLE
+
+def get_effcap(geo: str, traffic_class: str) -> float:
+	"""Return the effective capacity (Mbps) for a given geo and traffic class."""
+	table = _load_effcaps()
+	return table.get((geo, traffic_class), DEFAULT_EFFCAP_MBPS)
 
 
 @dataclass(frozen=True)
@@ -60,9 +85,21 @@ class CaribouCostCalculator:
 		*,
 		metered_power_rate_per_kwh: float = DEFAULT_METERED_POWER_RATE_PER_KWH,
 		hours_per_month: float = DEFAULT_HOURS_PER_MONTH,
+		geo: str = "NA",
+		traffic_class: str = "AkamaiHD",
 	) -> None:
 		self.metered_power_rate_per_kwh = metered_power_rate_per_kwh
 		self.hours_per_month = hours_per_month
+		self.geo = geo
+		self.traffic_class = traffic_class
+		self.effcap_mbps = get_effcap(geo, traffic_class)
+
+		if self.geo == "EMEA":
+			self.midgress_cost_nonmch = 0.03
+		elif self.geo in ("APAC", "LA"):
+			self.midgress_cost_nonmch = 0.14
+		else:
+			self.midgress_cost_nonmch = 0.07
 
 		disk_capex = CARIBOU_MACHINE_COST_USD * CARIBOU_DISK_COST_RATIO
 		self._monthly_depreciation_per_machine = disk_capex / CARIBOU_DEPRECIATION_MONTHS
@@ -102,7 +139,7 @@ class CaribouCostCalculator:
 			Total traffic entering the Caribou tier, measured in Mbps.
 		"""
 
-		Effcap = 24966 # This is how much traffic in mbps a caribou server can handle. 
+		Effcap = self.effcap_mbps  # Effective capacity in Mbps per Caribou server (geo + traffic_class specific)
 
 		if total_disk_required_tb < 0:
 			raise ValueError("Disk requirement cannot be negative")
@@ -128,7 +165,7 @@ class CaribouCostCalculator:
 		if is_mch_in_metro:
 			midgress_cost = (miss_traffic_mbps * MIDGRESS_COST_PER_Mbps_MONTH_MCH) - free_bw
 		else:
-			midgress_cost = (miss_traffic_mbps * MIDGRESS_COST_PER_Mbps_MONTH_NONMCH) - free_bw
+			midgress_cost = (miss_traffic_mbps * self.midgress_cost_nonmch) - free_bw
 
 		total_cost = monthly_depreciation_cost + monthly_colocation_cost + midgress_cost + parent_service_cost
 		provided_disk_tb = machines_required * CARIBOU_DISK_CAPACITY_TB

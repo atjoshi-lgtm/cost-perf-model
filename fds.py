@@ -87,7 +87,7 @@ class FootprintDescriptor:
 
 			try:
 				cache_space = int(float(columns[0]))
-				hitrate = float(columns[2])
+				hitrate = float(columns[4])
 			except ValueError as exc:  # pragma: no cover - defensive coding
 				raise ValueError(
 					f"Unable to parse cache space and hitrate on line {line_number} of {source}"

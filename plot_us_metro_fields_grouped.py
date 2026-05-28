@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 BASE_DIR = Path(__file__).resolve().parent
 LOG_PATH = BASE_DIR / "gradient_descent_metro_log.txt"
-OUTPUT_DIR = BASE_DIR / "US_traffic_based_penalty_more_aggressive"
+OUTPUT_DIR = BASE_DIR / "OtherBigFoot_APAC"
 METRICS = [
     "disk_mb",
     "hitrate",

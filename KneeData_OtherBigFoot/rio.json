@@ -1,0 +1,16 @@
+{
+  "knee": 78659400.0,
+  "hr_at_knee": 81.7,
+  "high_knee": 125466300.0,
+  "hr_at_high_knee": 84.5,
+  "asymptote_3": 161487800.0,
+  "hr_at_asymptote_3": 85.8,
+  "asymptote": 467669100.0,
+  "hr_at_asymptote": 88.7,
+  "traffic_level": 2955591197.069041,
+  "request_rate": 10431.337601279542,
+  "unique_objects": 459548700.0,
+  "observation_period": 950340.0,
+  "validation_label": "",
+  "date_created": "2026-01-28"
+}

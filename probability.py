@@ -192,7 +192,7 @@ class ProbabilityDensityFunction:
 
 		return int(cdf.index.max())
 
-	def to_microsecond_pdf(self) -> "ProbabilityDensityFunction":
+	def to_microsecond_pdf(self, step_us: int = 10) -> "ProbabilityDensityFunction":
 		"""Distribute mass uniformly within each millisecond and return a microsecond PDF."""
 		self._require_pandas()
 
@@ -201,12 +201,14 @@ class ProbabilityDensityFunction:
 			return ProbabilityDensityFunction([])
 
 		micro_values: Dict[int, float] = {}
+		steps_per_ms = 1_000 // step_us
 		for millisecond, probability in series.items():
 			if probability <= 0.0:
 				continue
 			base_microsecond = int(millisecond) * 1_000
-			share = probability / 1_000.0
-			for offset in range(1_000):
+			share = probability / steps_per_ms
+			for i in range(steps_per_ms):
+				offset = i * step_us
 				micro_values[base_microsecond + offset] = share
 
 		if not micro_values:

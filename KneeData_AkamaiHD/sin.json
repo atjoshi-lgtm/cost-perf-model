@@ -1,0 +1,16 @@
+{
+  "knee": null,
+  "hr_at_knee": null,
+  "high_knee": null,
+  "hr_at_high_knee": null,
+  "asymptote_3": null,
+  "hr_at_asymptote_3": null,
+  "asymptote": null,
+  "hr_at_asymptote": null,
+  "traffic_level": null,
+  "request_rate": null,
+  "unique_objects": null,
+  "observation_period": null,
+  "validation_label": "",
+  "date_created": null
+}

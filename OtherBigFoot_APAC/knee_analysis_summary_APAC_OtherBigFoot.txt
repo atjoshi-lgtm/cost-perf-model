@@ -1,0 +1,18 @@
+
+Source: /Users/ansabni/Work/CostPerfServedTo/OtherBigFoot_APAC/knee_analysis_APAC_OtherBigFoot.txt
+Metros: 57 total  (52 disk-deploying, 5 zero-disk)
+--------------------------------------------------------------
+  Metric                                    Knee    Cost-Opt
+--------------------------------------------------------------
+  Total cost ($/mo)                    210118.27   118335.66
+  Wtd-avg P50 ms (all metros)              52.74       44.86
+  Wtd-avg P95 ms (all metros)             208.01      187.33
+--------------------------------------------------------------
+    Disk-deploying metros only:     
+    Wtd-avg P50 ms                         49.94       40.60
+    Wtd-avg P95 ms                        207.18      182.76
+    Zero-disk metros only:          
+    Wtd-avg P50 ms                         65.03       63.59
+    Wtd-avg P95 ms                        211.62      207.44
+--------------------------------------------------------------
+  Note: weighted by TRAFFIC_FROM (client Mbps); no-perf-model metros excluded.

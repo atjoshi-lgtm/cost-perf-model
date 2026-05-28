@@ -68,3 +68,7 @@ class FootprintDescriptors:
             f"/scheduled/metro/{metro}/quarter/{quarter}/content-type/LO/maprules/?search={search_term}"
         )
 
+    def get_stdspace_for_bucket(self, metro: str, quarter: str, bucket: str):
+        return self.get_request(
+            f"/mapbucket/metro/{metro}/quarter/{quarter}/name/{bucket}/"
+        )

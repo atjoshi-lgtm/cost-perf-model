@@ -16,23 +16,61 @@ from itertools import product
 from collections import defaultdict
 
 import sys
+import argparse
 
 INT32_MAX = 2**31 - 1
-
 _BASE_DIR = Path(__file__).resolve().parent
 _FDS_DIR = _BASE_DIR / "FDS"
-_FDS2_DIR = _BASE_DIR / "FDS2"
+
+def get_args(args_list=None):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--geo", type=str, default="NA", help="The macroarea (geo) to filter by (e.g., NA, EMEA, LA, APAC)")
+    parser.add_argument("--bucket", type=str, default="AkamaiHD", help="The bucket name (e.g., AkamaiHD, OtherBigFoot)")
+    parser.add_argument("--traffic-threshold", type=float, default=20000.0, help="Minimum traffic (in Mbps) required to consider a network edge for optimization.")
+    return parser.parse_args(args_list)
+
+# Fallback values if imported, but populated if run directly
+_GEO = "NA"
+_BUCKET = "AkamaiHD"
+_FDS2_DIR = _BASE_DIR / f"FDS_{_BUCKET}"
+
 
 FDS_EXCEPTIONS = { "LGA" : "EWR_LGA"}
 
-MCH_METROS = ["ORD", "DFW", "LGA", "IAD", "ATL", "MIA", "SEA", "SJC", "LAX", "BOS", "DEN"]
+ALL_MCH_METROS = [
+    "ORD", "DFW", "LGA", "IAD", "ATL", "MIA", "SEA", "SJC", "LAX", "LON", 
+    "FRA", "RIO", "PAR", "AMS", "MIL", "TYO", "OSA", "SIN", "HKG", "MAD", 
+    "SYD", "GRU", "BOS", "DEN", "STO", "BOM", "MAA", 
+    "MEL", "BUE", "SCL", "MEX", "QRO", "CGK"
+]
+MCH_METROS = [] # This will be populated dynamically based on geo
 
 ALL_METROS = []
 
-def parse_metro_areas(file_path: Path) -> tuple[dict[str, dict], dict[str, str]]:
+def load_geo_mapping() -> dict[str, str]:
+    mapping = {}
+    csv_path = _BASE_DIR / "PERF" / "geo_mapping.csv"
+    if not csv_path.exists():
+        return mapping
+    
+    with csv_path.open("r", encoding="utf-8") as f:
+        # Columns: metro_area, country, macroarea
+        header = f.readline()
+        for line in f:
+            parts = [part.strip().strip('"') for part in line.strip().split(',')]
+            if len(parts) >= 3:
+                metro_area = parts[0]
+                macroarea = parts[2]
+                mapping[metro_area] = macroarea
+    return mapping
+
+def parse_metro_areas(file_path: Path, target_geo: str = "NA") -> tuple[dict[str, dict], dict[str, str], dict[str, str]]:
+    global MCH_METROS
     airport_info = {}
     metro_to_airport = {}
     airport_to_metro = {}
+    
+    geo_mapping = load_geo_mapping()
 
     with file_path.open() as f:
         next(f)  # Skip the header line
@@ -45,9 +83,16 @@ def parse_metro_areas(file_path: Path) -> tuple[dict[str, dict], dict[str, str]]
             parts = [part.strip().strip('"') for part in parts]
 
             id, metro_area, latitude, longitude, airport_code, country, state, max_distance = parts
-
-            if country != "US":
-                continue  # Skip non-US entries
+            
+            # Determine geo for this metro
+            metro_geo = geo_mapping.get(metro_area)
+            
+            # Use geo from the macroarea instead of treating 'US' as a geo
+            if metro_geo != target_geo:
+                continue
+                
+            if airport_code in ALL_MCH_METROS and airport_code not in MCH_METROS:
+                MCH_METROS.append(airport_code)
 
             ALL_METROS.append(airport_code)
 
@@ -108,6 +153,7 @@ def get_nearest_metro(airport_info: dict[str, dict], given_metro: str, fds_metro
     nearest_distance = float('inf')
 
     for metro, info in fds_metros:
+
         if metro == given_metro:
             continue  # Skip the given metro itself
 
@@ -141,7 +187,7 @@ def assign_parent_metros(airport_info: dict) -> dict[str, str]:
     return parent_assignment
 
 def _load_traffic_lookup() -> dict[tuple[str, str], float]:
-    csv_path = _BASE_DIR / "SERVEDFROM_DATA" / "served_from.csv"
+    csv_path = _BASE_DIR / "SERVEDFROM_DATA" / f"served_from_{_BUCKET}.csv"
     lookup: dict[tuple[str, str], float] = {}
 
     def _parse_csv_line(line: str) -> list[str]:
@@ -263,8 +309,10 @@ def get_smoothed_fd_for_metro(
     source_metro = metro
     visited: set[str] = {metro}
 
+
     if fd_text is None:
         fallback_metro = get_nearest_metro(airport_info, metro, fds_metros)
+        print(f"No FD found for {metro}, trying nearest metro {fallback_metro}")
         while fallback_metro is not None and fallback_metro not in visited:
             visited.add(fallback_metro)
             fd_text = _read_fd_text_for_metro(fallback_metro)
@@ -272,6 +320,8 @@ def get_smoothed_fd_for_metro(
                 source_metro = fallback_metro
                 break
             fallback_metro = get_nearest_metro(airport_info, fallback_metro, fds_metros)
+
+    print(f"FD text for {metro} loaded from {source_metro}, fallback metros tried: {visited - {source_metro}}")
 
     if fd_text is None:
         raise FileNotFoundError(f"No Footprint Descriptor available for metro {metro} or its nearest fallback metros")
@@ -478,12 +528,12 @@ def load_cost_optimal_points_threaded(
         return {}
 
     max_workers = max(1, os.cpu_count() or 1)
-    cost_model = CaribouCostCalculator()
+    cost_model = CaribouCostCalculator(geo=_GEO, traffic_class=_BUCKET)
     results: dict[str, dict[str, float | int | CaribouCostBreakdown]] = {}
 
     def _replication_factor_for_metro(metro: str) -> int:
         metro_name = airport_to_metro.get(metro)
-        tier = metro_tiers.get(metro_name, 2)
+        tier = metro_tiers.get(metro_name, 2)   
         if tier == 0:
             return 5
         if tier == 1:
@@ -564,6 +614,7 @@ def compute_performance_for_metro(
     try_hitrates: dict[str, float],
     traffic_lookup_by_airport: dict[tuple[str, str], float],
     conn: Convolution,
+    step_us: int = 10,
 ) -> tuple[float, float]:
     ttfb_pdfs = []
     weights = []
@@ -578,20 +629,65 @@ def compute_performance_for_metro(
             hitrate=hitrate,
             conn=conn,
         )
-        ttfb_pdfs.append(pdf.to_microsecond_pdf())
+        ttfb_pdfs.append(pdf.to_microsecond_pdf(step_us=step_us))
         weights.append(traffic_lookup_by_airport.get((metro, to_metro), 0.0))
 
     if not ttfb_pdfs or not any(weight > 0 for weight in weights):
         return 0.0, 0.0
 
-    combined_pdf = weighted_pdf_sum(ttfb_pdfs, weights)
-    p50 = combined_pdf.millisecond_at_percentile(50) / 1000
-    p95 = combined_pdf.millisecond_at_percentile(95) / 1000
+    try:
+        combined_pdf = weighted_pdf_sum(ttfb_pdfs, weights)
+    except ValueError:
+        return 0.0, 0.0
+    p50 = combined_pdf.millisecond_at_percentile(50) / 1000.0
+    p95 = combined_pdf.millisecond_at_percentile(95) / 1000.0
     return p50, p95
 
 
-def penalty_function(p50: float, p95: float, traffic_gbps: float = 1.0) -> float:
-    return  2 * traffic_gbps * (max(p50 - 24, 0) ** 2) + 2 * traffic_gbps * (max(p95 - 105, 0))
+_EMEA_AIRPORT_REGION:   dict[str, str] = {}
+_EMEA_AIRPORT_COUNTRY:  dict[str, str] = {}
+
+def _load_emea_airport_regions() -> tuple[dict[str, str], dict[str, str]]:
+    global _EMEA_AIRPORT_REGION, _EMEA_AIRPORT_COUNTRY
+    if _EMEA_AIRPORT_REGION:
+        return _EMEA_AIRPORT_REGION, _EMEA_AIRPORT_COUNTRY
+    csv_path = _BASE_DIR / "PERF" / "emea_airports.csv"
+    if not csv_path.exists():
+        return _EMEA_AIRPORT_REGION, _EMEA_AIRPORT_COUNTRY
+    with csv_path.open(encoding="utf-8") as f:
+        f.readline()  # skip header
+        for line in f:
+            parts = [p.strip() for p in line.strip().split(',')]
+            if len(parts) >= 4:
+                code, city, country, region = parts[0], parts[1], parts[2], parts[3]
+                _EMEA_AIRPORT_REGION[code]  = region
+                _EMEA_AIRPORT_COUNTRY[code] = country
+    return _EMEA_AIRPORT_REGION, _EMEA_AIRPORT_COUNTRY
+
+# Penalty thresholds by EMEA sub-region: (p50_target_ms, p95_target_ms)
+_EMEA_REGION_THRESHOLDS: dict[str, tuple[float, float]] = {
+    "Europe":      (24.0,  105.0),
+    "Middle East": (45.0,  180.0),
+    "Africa":      (75.0,  220.0),
+}
+# Country-level overrides (applied before the region lookup)
+_EMEA_COUNTRY_THRESHOLDS: dict[str, tuple[float, float]] = {
+    "South Africa": (35.0, 200.0),
+}
+_DEFAULT_THRESHOLDS = (24.0, 105.0)
+
+def penalty_function(p50: float, p95: float, traffic_gbps: float = 1.0, metro: str = "") -> float:
+    if _GEO == "EMEA" and metro:
+        regions, countries = _load_emea_airport_regions()
+        country = countries.get(metro)
+        if country and country in _EMEA_COUNTRY_THRESHOLDS:
+            p50_target, p95_target = _EMEA_COUNTRY_THRESHOLDS[country]
+        else:
+            region = regions.get(metro)
+            p50_target, p95_target = _EMEA_REGION_THRESHOLDS.get(region, _DEFAULT_THRESHOLDS) if region else _DEFAULT_THRESHOLDS
+    else:
+        p50_target, p95_target = _DEFAULT_THRESHOLDS
+    return 2 * traffic_gbps * (max(p50 - p50_target, 0) ** 2) + 2 * traffic_gbps * (max(p95 - p95_target, 0))
 
 def compute_perf_penalty_for_metro(
     metro: str,
@@ -615,7 +711,7 @@ def compute_perf_penalty_for_metro(
             conn,
         )
         traffic_gbps = traffic_from.get(candidate_metro, 0.0) / 1000.0
-        new_perf_penalty[candidate_metro] = penalty_function(p50, p95, traffic_gbps)
+        new_perf_penalty[candidate_metro] = penalty_function(p50, p95, traffic_gbps, metro=candidate_metro)
     return new_perf_penalty
 
 
@@ -647,7 +743,7 @@ def compute_gradient_for_metro(
 
     descriptor = descriptors[metro]
     current_disk = disk_provisioned.get(metro, 0.0)
-    current_hitrate = try_hitrates.get(metro, descriptor.hitrate_for_cache(current_disk))
+    current_hitrate = min(max(try_hitrates.get(metro, descriptor.hitrate_for_cache(current_disk)), 0.0), 100.0)
     current_cost = cost_by_metro.get(metro, 0.0)
 
     replication_factor = replication_factor_for_metro(metro, metro_tiers, airport_to_metro)
@@ -663,7 +759,7 @@ def compute_gradient_for_metro(
             "overall_gradient": 0.0,
         }
 
-    new_hitrate = descriptor.hitrate_for_cache(new_disk)
+    new_hitrate = min(max(descriptor.hitrate_for_cache(new_disk), 0.0), 100.0)
     increased_try_hitrates = dict(try_hitrates)
     increased_try_hitrates[metro] = new_hitrate
 
@@ -721,7 +817,7 @@ def load_gradients_threaded(
         return {}
 
     max_workers = max(1, os.cpu_count() or 1)
-    cost_model = CaribouCostCalculator()
+    cost_model = CaribouCostCalculator(geo=_GEO, traffic_class=_BUCKET)
     gradients: dict[str, dict[str, float]] = {}
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -776,7 +872,7 @@ def evaluate_state(
     traffic_lookup_by_airport: dict[tuple[str, str], float],
     traffic_from: dict[str, float],
 ) -> tuple[dict[str, float], dict[str, float], dict[str, float], dict[str, tuple[float, float]]]:
-    cost_model = CaribouCostCalculator()
+    cost_model = CaribouCostCalculator(geo=_GEO, traffic_class=_BUCKET)
     try_hitrates: dict[str, float] = {}
     cost_by_metro: dict[str, float] = {}
     perf_penalty: dict[str, float] = {}
@@ -787,7 +883,7 @@ def evaluate_state(
             continue
         descriptor = descriptors[metro]
         disk = disk_provisioned.get(metro, 0.0)
-        try_hitrates[metro] = descriptor.hitrate_for_cache(disk)
+        try_hitrates[metro] = min(max(descriptor.hitrate_for_cache(disk), 0.0), 100.0)
 
         replication_factor = replication_factor_for_metro(metro, metro_tiers, airport_to_metro)
         cost_by_metro[metro] = compute_replicated_total_cost_model_b(
@@ -812,10 +908,61 @@ def evaluate_state(
             conn,
         )
         performance_stats[metro] = (p50, p95)
-        perf_penalty[metro] = penalty_function(p50, p95, traffic_from.get(metro, 0.0) / 1000.0)
+        perf_penalty[metro] = penalty_function(p50, p95, traffic_from.get(metro, 0.0) / 1000.0, metro=metro)
 
     return try_hitrates, cost_by_metro, perf_penalty, performance_stats
 
+def plot_neighborhood_graph(neighborhood: dict[str, list[str]], airport_info: dict[str, dict], traffic_lookup: dict[tuple[str, str], float]):
+    import matplotlib.pyplot as plt
+    import networkx as nx
+
+    G = nx.DiGraph()
+
+    # Add nodes with positions based on latitude and longitude
+    for metro in neighborhood:
+        if metro not in airport_info:
+            continue
+        lat = airport_info[metro]['latitude']
+        lon = airport_info[metro]['longitude']
+        G.add_node(metro, pos=(lon, lat))
+
+    # Add edges with weights based on traffic
+    for metro, neighbors in neighborhood.items():
+        for neighbor in neighbors:
+            traffic = traffic_lookup.get((metro, neighbor), 0.0)
+            if traffic > 30000:  # Only show edges with > 30 Gbps
+                G.add_edge(metro, neighbor, weight=traffic)
+
+    pos = nx.get_node_attributes(G, 'pos')
+    weights = nx.get_edge_attributes(G, 'weight')
+
+    plt.figure(figsize=(16, 10))
+    
+    # Draw nodes
+    nx.draw_networkx_nodes(G, pos, node_size=500, node_color='lightblue', alpha=0.8)
+    nx.draw_networkx_labels(G, pos, font_size=8, font_weight='bold')
+    
+    # Draw edges with width proportional to traffic
+    if weights:
+        max_weight = max(weights.values())
+        edge_widths = [5 * (w / max_weight) for w in weights.values()]
+        nx.draw_networkx_edges(G, pos, width=edge_widths, alpha=0.6, 
+                               edge_color='gray', arrows=True, arrowsize=10)
+        
+        # Draw edge labels showing traffic in Gbps
+        edge_labels = {edge: f"{weight/1000:.1f}G" for edge, weight in weights.items()}
+        nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=6)
+
+    plt.title(f"Traffic Graph: End-User Metros → Serving Metros ({_BUCKET}, edges > 10 Gbps)", fontsize=14)
+    plt.xlabel("Longitude")
+    plt.ylabel("Latitude")
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    
+    output_path = _BASE_DIR / "traffic_graph.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    print(f"Traffic graph saved to {output_path}")
+    plt.show()
 
 def log_iteration_state(
     iteration: int,
@@ -862,7 +1009,13 @@ def log_iteration_state(
 
 
 if __name__ == "__main__":
-    airport_info, metro_to_airport, airport_to_metro = parse_metro_areas(_BASE_DIR / "PERF" / "metro_areas.csv")
+    args = get_args()
+    _GEO = args.geo
+    _BUCKET = args.bucket
+    _TRAFFIC_THRESHOLD = args.traffic_threshold
+    _FDS2_DIR = _BASE_DIR / f"FDS_{_BUCKET}"
+
+    airport_info, metro_to_airport, airport_to_metro = parse_metro_areas(_BASE_DIR / "PERF" / "metro_areas.csv", _GEO)
     metro_tiers = get_metro_tiers()
     parent_assignment = assign_parent_metros(airport_info)
 
@@ -874,7 +1027,7 @@ if __name__ == "__main__":
     neighborhood_to = defaultdict(list)
     neighborhood_from = defaultdict(list)
     for (asn_metro, bw_metro), traffic in traffic_lookup.items():
-        if traffic > 10000 and asn_metro in metro_to_airport and bw_metro in metro_to_airport:  # Traffic is in Mbps, so 10000 Mbps = 10 Gbps
+        if traffic > _TRAFFIC_THRESHOLD and asn_metro in metro_to_airport and bw_metro in metro_to_airport:
             neighborhood_to[metro_to_airport[asn_metro]].append(metro_to_airport[bw_metro])
             neighborhood_from[metro_to_airport[bw_metro]].append(metro_to_airport[asn_metro])
 
@@ -882,7 +1035,7 @@ if __name__ == "__main__":
     traffic_lookup_by_airport = {}
     for (asn_metro, bw_metro), traffic in traffic_lookup.items():
         if asn_metro in metro_to_airport and bw_metro in metro_to_airport:
-            if traffic > 10000:  # Traffic is in Mbps, so 10000 Mbps = 10 Gbps
+            if traffic > _TRAFFIC_THRESHOLD:
                 print(f"ASN Metro: {asn_metro}, BW Metro: {bw_metro}, Traffic: {traffic} Mbps")
             traffic_lookup_by_airport[(metro_to_airport[asn_metro], metro_to_airport[bw_metro])] = traffic
 
@@ -991,6 +1144,7 @@ if __name__ == "__main__":
     PERF_PENALTY = defaultdict(float)
 
     conn = Convolution()
+    cost_optimal_rows = []
     for metro in metros:
         if metro not in PERFORMANCE_MODELS:
             continue
@@ -1002,8 +1156,27 @@ if __name__ == "__main__":
             traffic_lookup_by_airport,
             conn,
         )
-        PERF_PENALTY[metro] = penalty_function(p50, p95, TRAFFIC_FROM[metro] / 1000.0)
+        PERF_PENALTY[metro] = penalty_function(p50, p95, TRAFFIC_FROM[metro] / 1000.0, metro=metro)
         print(f"Initial metro {metro}: P50={p50} ms, P95={p95} ms, penalty={PERF_PENALTY[metro]:.2f}")
+        cost_optimal_rows.append({
+            "metro": metro,
+            "disk_mb": DISK_PROVISIONED.get(metro, 0.0),
+            "hitrate": TRY_HITRATES.get(metro, 0.0),
+            "cost": COST.get(metro, 0.0),
+            "p50_ms": p50,
+            "p95_ms": p95,
+            "perf_penalty": PERF_PENALTY[metro],
+        })
+
+    cost_optimal_log_path = _BASE_DIR / f"cost_optimal_starting_points_{_GEO}_{_BUCKET}.csv"
+    with open(cost_optimal_log_path, "w") as f:
+        f.write("metro,disk_mb,hitrate,cost,p50_ms,p95_ms,perf_penalty\n")
+        for row in cost_optimal_rows:
+            f.write(
+                f"{row['metro']},{row['disk_mb']:.2f},{row['hitrate']:.2f},"
+                f"{row['cost']:.2f},{row['p50_ms']:.4f},{row['p95_ms']:.4f},{row['perf_penalty']:.2f}\n"
+            )
+    print(f"\nCost-optimal starting points written to {cost_optimal_log_path}")
 
 
     gradient_step = 5 * 1000 * 1000  # 5 TB in MB — used only for gradient probing, not for the update step
@@ -1016,7 +1189,45 @@ if __name__ == "__main__":
     per_metro_log_path.write_text("", encoding="utf-8")
     summary_log_path.write_text("", encoding="utf-8")
 
-
+    '''
+    # Log iteration 0: the cost-optimal starting point (before any gradient steps).
+    print("Evaluating iteration 0 (cost-optimal starting point) for logging...")
+    _, _, _, perf_stats_0 = evaluate_state(
+        active_metros,
+        DISK_PROVISIONED,
+        FDS_BY_METRO,
+        INCOMING_TRAFFIC,
+        metro_tiers,
+        airport_to_metro,
+        MCH_METROS,
+        neighborhood_to,
+        PERFORMANCE_MODELS,
+        traffic_lookup_by_airport,
+        TRAFFIC_FROM,
+    )
+    zero_gradients: dict[str, dict[str, float]] = {
+        m: {"cost_gradient": 0.0, "perf_gradient": 0.0, "overall_gradient": 0.0}
+        for m in active_metros
+    }
+    total_cost_0 = sum(COST.get(m, 0.0) for m in active_metros)
+    total_penalty_0 = sum(PERF_PENALTY.get(m, 0.0) for m in active_metros)
+    log_iteration_state(
+        0,
+        active_metros,
+        DISK_PROVISIONED,
+        TRY_HITRATES,
+        COST,
+        PERF_PENALTY,
+        perf_stats_0,
+        zero_gradients,
+        total_cost_0,
+        total_penalty_0,
+        total_cost_0 + total_penalty_0,
+        per_metro_log_path,
+        summary_log_path,
+    )
+    print(f"Logged iteration 0: total_cost={total_cost_0:.2f}, total_penalty={total_penalty_0:.2f}")
+    '''
     iteration = 0
     while True:
         iteration += 1
@@ -1132,4 +1343,3 @@ if __name__ == "__main__":
             f"Overall total cost={total_cost:.5f}, total performance penalty={total_penalty:.5f}, "
             f"objective={combined_total:.5f} (cost + penalty)"
         )
-    

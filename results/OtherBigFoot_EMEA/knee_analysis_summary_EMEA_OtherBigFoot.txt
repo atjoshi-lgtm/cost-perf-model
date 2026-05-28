@@ -1,0 +1,39 @@
+
+Source: /Users/ansabni/Work/CostPerfServedTo/OtherBigFoot_in_EMEA_updated_perf_penalty/knee_analysis_EMEA_OtherBigFoot.txt
+Metros: 86 total  (76 disk-deploying, 10 zero-disk)
+--------------------------------------------------------------
+  Metric                                    Knee    Cost-Opt
+--------------------------------------------------------------
+  Total cost ($/mo)                    257597.60   106878.60
+  Wtd-avg P50 ms (all metros)              51.74       60.35
+  Wtd-avg P95 ms (all metros)             172.07      181.37
+--------------------------------------------------------------
+    Disk-deploying metros only:     
+    Wtd-avg P50 ms                         51.66       60.24
+    Wtd-avg P95 ms                        172.05      181.21
+    Zero-disk metros only:          
+    Wtd-avg P50 ms                         54.35       63.98
+    Wtd-avg P95 ms                        172.80      186.72
+--------------------------------------------------------------
+  Note: weighted by TRAFFIC_FROM (client Mbps); no-perf-model metros excluded.
+
+--------------------------------------------------------------
+  EMEA Region Breakdown
+--------------------------------------------------------------
+  Europe (62 metros):
+    Wtd-avg P50 ms                       32.27       37.73
+    Wtd-avg P95 ms                      132.32      140.78
+    Total cost ($/mo)                192615.39    75450.15
+  Middle East (11 metros):
+    Wtd-avg P50 ms                       49.78       77.44
+    Wtd-avg P95 ms                      200.29      219.49
+    Total cost ($/mo)                 27381.76    13176.87
+  Africa (10 metros):
+    Wtd-avg P50 ms                       94.76      101.39
+    Wtd-avg P95 ms                      242.10      248.32
+    Total cost ($/mo)                 29251.82    13882.14
+  South Africa (3 metros):
+    Wtd-avg P50 ms                       41.07       75.36
+    Wtd-avg P95 ms                      240.87      269.19
+    Total cost ($/mo)                  8348.63     4369.44
+--------------------------------------------------------------

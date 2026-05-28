@@ -1,13 +1,17 @@
-"""Evaluate cost and performance of every US metro operating at its FDS knee point.
+"""Evaluate cost and performance of every metro operating at its FDS knee point.
 
 For metros that don't have a knee file the nearest-metro FDS fallback (same
 logic as solve_for_US.py) is used and the knee of the proxy metro is applied.
 
-Output: a formatted table printed to stdout and saved to knee_analysis.txt.
+Output: a formatted table printed to stdout and saved to knee_analysis_{GEO}_{BUCKET}.txt.
+
+Usage:
+    python3.11 analyse_knee.py --geo EMEA --bucket OtherBigFoot --traffic-threshold 5000
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 from collections import defaultdict
@@ -24,7 +28,32 @@ from analyse import get_rtt_pdf, get_edge_tat_pdf, get_midgress_rtt_pdf, get_par
 import solve_for_US as _s
 
 _BASE_DIR = Path(__file__).resolve().parent
-_KNEE_DIR = _BASE_DIR / "KneeData"
+
+# ---------------------------------------------------------------------------
+# Parse arguments (mirrors solve_for_US.py)
+# ---------------------------------------------------------------------------
+
+def _get_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--geo", type=str, default="NA",
+                        help="Macroarea to analyse (e.g. NA, EMEA, LA, APAC)")
+    parser.add_argument("--bucket", type=str, default="AkamaiHD",
+                        help="FDS bucket name (e.g. AkamaiHD, OtherBigFoot)")
+    parser.add_argument("--traffic-threshold", type=float, default=20000.0,
+                        help="Minimum traffic (Mbps) required to include a network edge")
+    return parser.parse_args()
+
+_args = _get_args()
+_GEO              = _args.geo
+_BUCKET           = _args.bucket
+_TRAFFIC_THRESHOLD = _args.traffic_threshold
+
+# Propagate into solve_for_US module so its helper functions use the right values
+_s._GEO    = _GEO
+_s._BUCKET = _BUCKET
+_s._FDS2_DIR = _BASE_DIR / f"FDS_{_BUCKET}"
+
+_KNEE_DIR = _BASE_DIR / f"KneeData_{_BUCKET}"  # knee JSON files named like <metro>.json
 
 # ---------------------------------------------------------------------------
 # Load knee data (bytes) for each FDS metro
@@ -36,6 +65,8 @@ def load_knee_bytes(metro: str) -> float | None:
     if not path.exists():
         return None
     data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("knee") is None:
+        return None
     return float(data["knee"])
 
 
@@ -44,7 +75,7 @@ def load_knee_bytes(metro: str) -> float | None:
 # ---------------------------------------------------------------------------
 
 airport_info, metro_to_airport, airport_to_metro = _s.parse_metro_areas(
-    _BASE_DIR / "PERF" / "metro_areas.csv"
+    _BASE_DIR / "PERF" / "metro_areas.csv", _GEO
 )
 metro_tiers   = _s.get_metro_tiers()
 parent_assignment = _s.assign_parent_metros(airport_info)
@@ -54,7 +85,7 @@ traffic_lookup = _s._load_traffic_lookup()
 neighborhood_to   = defaultdict(list)
 neighborhood_from = defaultdict(list)
 for (asn_metro, bw_metro), traffic in traffic_lookup.items():
-    if traffic > 10000 and asn_metro in metro_to_airport and bw_metro in metro_to_airport:
+    if traffic > _TRAFFIC_THRESHOLD and asn_metro in metro_to_airport and bw_metro in metro_to_airport:
         neighborhood_to[metro_to_airport[asn_metro]].append(metro_to_airport[bw_metro])
         neighborhood_from[metro_to_airport[bw_metro]].append(metro_to_airport[asn_metro])
 
@@ -77,7 +108,7 @@ for metro in metros:
 
 # FDS descriptors
 fds_metros = []
-for fd_path in (_BASE_DIR / "FDS2").glob("*.txt"):
+for fd_path in (_BASE_DIR / f"FDS_{_BUCKET}").glob("*.txt"):
     code = fd_path.stem.upper()
     if code in airport_info:
         fds_metros.append((code, airport_info[code]))
@@ -156,7 +187,7 @@ for metro in metros:
 # Evaluate cost & performance at the knee
 # ---------------------------------------------------------------------------
 
-cost_model = CaribouCostCalculator()
+cost_model = CaribouCostCalculator(geo=_GEO, traffic_class=_BUCKET)
 
 def _replication_factor(metro: str) -> int:
     name = airport_to_metro.get(metro)
@@ -202,7 +233,8 @@ for metro in metros:
 KNEE_PENALTY: dict[str, float] = {
     metro: _s.penalty_function(
         KNEE_PERF[metro][0], KNEE_PERF[metro][1],
-        TRAFFIC_FROM.get(metro, 0.0) / 1000.0
+        TRAFFIC_FROM.get(metro, 0.0) / 1000.0,
+        metro=metro,
     )
     for metro in KNEE_PERF
 }
@@ -230,7 +262,8 @@ for metro in metros:
 OPT_PENALTY: dict[str, float] = {
     metro: _s.penalty_function(
         OPT_PERF[metro][0], OPT_PERF[metro][1],
-        TRAFFIC_FROM.get(metro, 0.0) / 1000.0
+        TRAFFIC_FROM.get(metro, 0.0) / 1000.0,
+        metro=metro,
     )
     for metro in OPT_PERF
 }
@@ -353,9 +386,59 @@ lines.append(
 )
 lines.append(SEP)
 
+# ---------------------------------------------------------------------------
+# Traffic-weighted P50 / P95 summary (overall + per EMEA region)
+# ---------------------------------------------------------------------------
+def _wavg(values: list[float], weights: list[float]) -> float:
+    tw = sum(weights)
+    return sum(v * w for v, w in zip(values, weights)) / tw if tw else 0.0
+
+# Use TRAFFIC_FROM as client-traffic weight (same as plot_gradient_convergence.py)
+active_rows = [r for r in rows if r["knee_p50"] > 0.0 and TRAFFIC_FROM.get(r["metro"], 0.0) > 0.0]
+weights_all  = [TRAFFIC_FROM[r["metro"]] for r in active_rows]
+
+def _summary_block(label: str, subset: list[dict], w: list[float]) -> list[str]:
+    if not subset:
+        return []
+    knee_p50 = _wavg([r["knee_p50"] for r in subset], w)
+    knee_p95 = _wavg([r["knee_p95"] for r in subset], w)
+    opt_p50  = _wavg([r["opt_p50"]  for r in subset], w)
+    opt_p95  = _wavg([r["opt_p95"]  for r in subset], w)
+    return [
+        f"  {label}",
+        f"    Wtd-avg P50 (ms):  Knee={knee_p50:7.2f}   Cost-Opt={opt_p50:7.2f}",
+        f"    Wtd-avg P95 (ms):  Knee={knee_p95:7.2f}   Cost-Opt={opt_p95:7.2f}",
+    ]
+
+lines += ["", "  === Traffic-Weighted Latency Summary ==="]
+lines += _summary_block("All metros", active_rows, weights_all)
+
+if _GEO == "EMEA":
+    airport_regions, airport_countries = _s._load_emea_airport_regions()
+    _COUNTRY_OVERRIDE = {"South Africa": "South Africa"}
+    _REGION_ORDER = ["Europe", "Middle East", "Africa", "South Africa"]
+
+    region_rows: dict[str, list[dict]] = {r: [] for r in _REGION_ORDER}
+    for row in active_rows:
+        m = row["metro"]
+        country = airport_countries.get(m)
+        region  = airport_regions.get(m)
+        bucket  = _COUNTRY_OVERRIDE.get(country, region) if country else region
+        if bucket in region_rows:
+            region_rows[bucket].append(row)
+
+    for region in _REGION_ORDER:
+        rrows = region_rows[region]
+        if not rrows:
+            continue
+        rw = [TRAFFIC_FROM[r["metro"]] for r in rrows]
+        lines += _summary_block(f"  {region} ({len(rrows)} metros)", rrows, rw)
+
+lines.append(SEP)
+
 output = "\n".join(lines)
 print(output)
 
-out_path = _BASE_DIR / "knee_analysis.txt"
+out_path = _BASE_DIR / f"knee_analysis_{_GEO}_{_BUCKET}.txt"
 out_path.write_text(output + "\n", encoding="utf-8")
 print(f"\nSaved to {out_path}")

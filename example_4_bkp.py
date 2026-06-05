@@ -95,20 +95,25 @@ def _load_traffic_lookup() -> dict[tuple[str, str], float]:
 	csv_path = _BASE_DIR / "SERVEDFROM_DATA" / "served_from.csv"
 	lookup: dict[tuple[str, str], float] = {}
 
-	if not csv_path.exists():
-		return lookup
+	def _parse_csv_line(line: str) -> list[str]:
+		cleaned_line = line.strip().lstrip("\ufeff")
+		return [part.strip().strip('"') for part in cleaned_line.split('","')]
 
-	with csv_path.open("r", encoding="utf-8-sig") as csv_file:
-		reader = csv.reader(csv_file)
-		next(reader)  # Skip the problematic header row entirely
-		for row in reader:
-			if len(row) >= 3:
-				asn_metro = row[0].strip(' "\'')
-				bw_metro = row[1].strip(' "\'')
-				traffic = float(row[2].strip(' "\''))
-				lookup[(asn_metro, bw_metro)] = traffic
-				
+	with csv_path.open("r", newline="", encoding="utf-8") as csv_file:
+		header_line = csv_file.readline()
+		if not header_line:
+			return lookup
+		normalized_header = _parse_csv_line(header_line)
+		asn_idx = normalized_header.index("asn_metro")
+		bw_idx = normalized_header.index("bw_metro")
+		traffic_idx = normalized_header.index("traffic_mbps")
+		for line in csv_file:
+			if not line.strip():
+				continue
+			normalized_row = _parse_csv_line(line)
+			lookup[(normalized_row[asn_idx], normalized_row[bw_idx])] = float(normalized_row[traffic_idx])
 	return lookup
+
 
 TRAFFIC_LOOKUP = _load_traffic_lookup()
 
